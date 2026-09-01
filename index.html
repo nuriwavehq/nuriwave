@@ -1,0 +1,1071 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>NuriWave — Korea • Journey • Beyond</title>
+<meta name="description" content="NuriWave — a practical Korea platform covering GKS, study in Korea, universities, cities, culture, festivals, student life and useful official resources.">
+<link rel="icon" href="nuriwave-logo.jpeg">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800;900&family=Playfair+Display:wght@600;700;800&display=swap" rel="stylesheet">
+<style>
+:root{
+ --navy:#071a3b;--blue:#2378c7;--sky:#9de3ff;--coral:#ff6f73;--red:#ff3655;--yellow:#ffe45a;
+ --lime:#a7ef58;--green:#5ee5a0;--mint:#bcefd9;--purple:#b9a0ff;--pink:#ffb1dc;--orange:#ffad61;
+ --cream:#fff8ef;--paper:#f6fbff;--ink:#101a31;--muted:#64728a;--line:#dce6ef;--white:#fff;
+ --shadow:0 25px 65px rgba(7,26,59,.13);--r:28px
+}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;font-family:"DM Sans",Arial,sans-serif;background:var(--paper);color:var(--ink)}
+a{text-decoration:none;color:inherit}img{max-width:100%;display:block}
+.nav{position:fixed;top:0;left:0;right:0;z-index:999;background:rgba(255,255,255,.92);backdrop-filter:blur(18px);border-bottom:1px solid #ffffff;box-shadow:0 5px 22px #071a3b0b}.navin{max-width:1380px;margin:auto;padding:12px 3.5%;display:flex;align-items:center;justify-content:space-between;gap:16px}.brand{display:flex;align-items:center;gap:10px;font-weight:900;letter-spacing:.1em}.brand img{width:47px;height:47px;border-radius:50%;object-fit:cover}.navlinks{display:flex;align-items:center;gap:10px;flex-wrap:wrap}.navlinks a{font-size:11px;font-weight:900;padding:9px 10px;border-radius:999px}.navlinks a:hover,.navlinks a.active{background:var(--navy);color:#fff}.menu{display:none;border:0;background:none;font-size:25px}
+main{padding-top:71px}.view{display:none;min-height:calc(100vh - 71px)}.view.active{display:block}
+.hero{display:grid;grid-template-columns:1.02fr .98fr;min-height:68vh;background:var(--navy);color:#fff}.hero-copy{padding:8% 8%;display:flex;flex-direction:column;justify-content:center;position:relative;overflow:hidden}.hero-copy:before{content:"";position:absolute;width:430px;height:430px;border-radius:50%;background:var(--coral);right:-230px;bottom:-230px;opacity:.12}.eyebrow{font-size:10px;text-transform:uppercase;letter-spacing:.23em;font-weight:900;color:var(--aqua)}.hero h1{font:800 clamp(54px,7.2vw,105px)/.92 "Playfair Display",serif;letter-spacing:-.06em;margin:16px 0}.hero h1 em{font-style:normal;color:var(--coral)}.hero p{max-width:700px;color:#ffffffca;line-height:1.82;font-size:17px}.hero-img{min-height:480px;background-size:cover;background-position:center;position:relative}.hero-img:after{content:"";position:absolute;inset:0;background:linear-gradient(90deg,var(--navy),transparent 36%,#071a3b10)}
+.wrap{max-width:1280px;margin:auto}section{padding:88px 5%}.head{display:flex;justify-content:space-between;align-items:end;gap:30px;margin-bottom:38px}.kicker{font-size:10px;text-transform:uppercase;letter-spacing:.2em;color:var(--plum);font-weight:900}.head h2{font:700 clamp(38px,5vw,63px)/1 "Playfair Display",serif;letter-spacing:-.05em;margin:9px 0}.head p{max-width:570px;color:var(--muted);line-height:1.8}
+.btns{display:flex;gap:10px;flex-wrap:wrap;margin-top:22px}.btn{display:inline-flex;align-items:center;justify-content:center;padding:12px 17px;border-radius:999px;font-size:12px;font-weight:900;border:1px solid transparent;transition:.2s}.btn:hover{transform:translateY(-2px)}.primary{background:#fff;color:var(--navy)}.outline{border-color:#ffffff45;background:#ffffff0b;color:#fff}.darkbtn{background:var(--navy);color:#fff}.coralbtn{background:var(--coral);color:#fff}.goldbtn{background:var(--yellow);color:var(--navy)}
+.mix{background:linear-gradient(135deg,#e9f8ff 0%,#fff2ed 50%,#f2efff 100%)}.greensec{background:linear-gradient(135deg,#eafaf1,#f8fff3)}.pinksec{background:linear-gradient(135deg,#fff0f8,#fff8ef)}.yellowsec{background:linear-gradient(135deg,#fffce0,#fff2e8)}.navysec{background:var(--navy);color:#fff}.navysec .kicker{color:var(--aqua)}.navysec .head p{color:#ffffffab}
+.paras{display:grid;grid-template-columns:1fr 1fr;gap:18px}.para{background:#fff;border:1px solid var(--line);border-radius:22px;padding:24px}.para h3{margin:0 0 9px}.para p{margin:0;color:var(--muted);font-size:14px;line-height:1.83}
+.cards{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}.card{background:#fff;border:1px solid var(--line);border-radius:var(--r);overflow:hidden;box-shadow:0 8px 28px #071a3b09;transition:.2s}.card:hover{transform:translateY(-6px);box-shadow:var(--shadow)}.card img{width:100%;height:205px;object-fit:cover}.body{padding:24px}.card h3{font-size:21px;margin:0 0 8px}.card p{font-size:13px;color:var(--muted);line-height:1.72}.arrow{font-size:12px;color:var(--plum);font-weight:900}
+.pills{display:grid;grid-template-columns:repeat(4,1fr);gap:14px}.pill{background:#fff;border:1px solid var(--line);border-radius:21px;padding:20px}.pill b{font-size:24px}.pill h3{margin:8px 0}.pill p{font-size:12px;line-height:1.65;color:var(--muted);margin:0}
+.timeline{position:relative;padding-left:34px}.timeline:before{content:"";position:absolute;left:10px;top:6px;bottom:6px;width:2px;background:#c5d6e4}.step{position:relative;background:#fff;border:1px solid var(--line);border-radius:20px;padding:18px;margin:0 0 12px}.step:before{content:"";position:absolute;left:-29px;top:21px;width:11px;height:11px;border:4px solid #fff;border-radius:50%;background:var(--coral);box-shadow:0 0 0 2px #f4b4ac}.step strong{display:block;margin-bottom:5px}.step p{margin:0;color:var(--muted);font-size:13px;line-height:1.7}
+.checks{display:grid;grid-template-columns:1fr 1fr;gap:9px}.check{display:flex;gap:10px;padding:12px 14px;border:1px solid var(--line);background:#fff;border-radius:14px;font-size:13px}.check input{accent-color:var(--plum)}
+.search{display:flex;gap:9px;margin-bottom:20px}.search input{flex:1;border:1px solid var(--line);border-radius:999px;padding:13px 16px;outline:none}.filterrow{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:22px}.filter{border:1px solid var(--line);background:#fff;padding:9px 13px;border-radius:999px;font-weight:900;font-size:11px;cursor:pointer}.filter.active,.filter:hover{background:var(--navy);color:#fff}
+.uni-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}.uni{background:#fff;border:1px solid var(--line);border-radius:22px;padding:22px}.uni h3{margin:8px 0}.uni p{color:var(--muted);font-size:13px;line-height:1.65}
+.calendar{display:grid;grid-template-columns:repeat(3,1fr);gap:17px}.event{background:#fff;border:1px solid var(--line);border-radius:22px;overflow:hidden}.event img{width:100%;height:175px;object-fit:cover}.eventbody{padding:20px}.season{font-size:9px;letter-spacing:.18em;text-transform:uppercase;color:var(--plum);font-weight:900}.event h3{margin:8px 0}.event p{color:var(--muted);font-size:13px;line-height:1.7}.date{font-size:11px;font-weight:900}
+.calc{background:#fff;border:1px solid var(--line);border-radius:28px;padding:26px;box-shadow:var(--shadow)}.formgrid{display:grid;grid-template-columns:repeat(4,1fr);gap:13px}.field label{display:block;font-size:10px;font-weight:900;text-transform:uppercase;letter-spacing:.1em;margin-bottom:6px}.field select{width:100%;border:1px solid var(--line);border-radius:11px;padding:11px;background:#fff}.result{margin-top:20px;background:var(--navy);color:#fff;padding:20px;border-radius:19px}.result strong{display:block;font-size:32px;margin-top:3px}.breakdown{display:grid;grid-template-columns:repeat(5,1fr);gap:8px;margin-top:12px}.breakdown div{border:1px solid #fff2;background:#ffffff0b;border-radius:11px;padding:9px}.breakdown b{display:block;font-size:12px}.breakdown small{color:#ffffff80;font-size:9px}
+.resources{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}.resource{background:#fff;border:1px solid var(--line);border-radius:22px;padding:22px}.resource h3{margin:0 0 7px}.resource p{margin:0 0 12px;color:var(--muted);font-size:13px;line-height:1.7}.resource a{font-size:12px;color:var(--plum);font-weight:900}
+.langgrid{display:grid;grid-template-columns:repeat(5,1fr);gap:11px}.lang{padding:13px;text-align:center;background:#fff;border:1px solid var(--line);border-radius:14px;font-size:12px;font-weight:800}
+.contactbox{background:linear-gradient(135deg,#071a3b,#165b91 65%,#24588a);border-radius:34px;padding:58px;color:#fff;text-align:center;box-shadow:var(--shadow)}.contactbox h2{font:700 55px "Playfair Display",serif;margin:8px 0}.contactbox p{max-width:730px;margin:auto;color:#ffffffb7;line-height:1.8}
+footer{background:#030b1b;color:#fff;padding:38px 5% 16px}.foot{max-width:1280px;margin:auto;display:flex;justify-content:space-between;gap:20px;align-items:center;flex-wrap:wrap}.footbrand{display:flex;gap:10px;align-items:center}.footbrand img{width:46px;height:46px;border-radius:50%}.footbrand small{font-size:9px;color:#ffffff60;display:block}.footlinks{display:flex;gap:17px;flex-wrap:wrap;color:#ffffffa2;font-size:12px}.credit{max-width:1280px;margin:20px auto 0;border-top:1px solid #ffffff12;padding-top:12px;color:#ffffff46;font-size:9px;line-height:1.65}
+.translate{position:fixed;right:16px;bottom:16px;z-index:1100;background:#fff;border:1px solid var(--line);padding:7px;border-radius:999px;box-shadow:0 10px 35px #071a3b20}.translate select{border:0;background:#fff;font-size:11px;font-weight:900;outline:none}
+@media(max-width:1000px){.navlinks{display:none}.nav.open .navlinks{position:absolute;top:72px;left:3%;right:3%;background:#fff;border:1px solid var(--line);padding:15px;border-radius:19px;box-shadow:var(--shadow);display:flex;flex-direction:column;align-items:flex-start}.menu{display:block}.cards,.calendar,.resources,.uni-grid{grid-template-columns:1fr 1fr}.pills{grid-template-columns:1fr 1fr}.formgrid{grid-template-columns:1fr 1fr}.breakdown{grid-template-columns:1fr 1fr}}
+@media(max-width:620px){section{padding:64px 5%}.hero{grid-template-columns:1fr}.heroimg{min-height:280px}.hero h1{font-size:68px}.head{display:block}.head p{margin-top:17px}.cards,.calendar,.resources,.uni-grid,.paras,.pills,.checks{grid-template-columns:1fr}.formgrid{grid-template-columns:1fr}.breakdown{grid-template-columns:1fr 1fr}.contactbox{padding:36px 20px}.contactbox h2{font-size:40px}.search{display:block}.search button{margin-top:8px;padding:12px 18px}}
+
+.verifybar{position:fixed;top:70px;left:0;right:0;z-index:990;background:linear-gradient(90deg,#062046,#0c5f46 48%,#8b1e36);color:#fff;padding:7px 4%;font-size:10px;display:flex;justify-content:center;gap:20px;align-items:center}.verifybar span{color:#ffffffac}.verifybar a{font-weight:900;color:#fff}.view{min-height:calc(100vh - 112px)}
+.toolshero{background:linear-gradient(135deg,#effaff,#fff4e9,#f0edff)}.toolgrid{display:grid;grid-template-columns:repeat(3,1fr);gap:17px}.toolcard{background:#fff;border:1px solid var(--line);border-radius:24px;padding:24px;box-shadow:0 8px 25px #071a3b09}.toolcard .emoji{font-size:30px}.toolcard h3{margin:10px 0}.toolcard p{color:var(--muted);font-size:13px;line-height:1.7}.toolcard .miniresult{margin-top:12px;border-radius:14px;background:#eff8ff;padding:11px;font-size:11px;font-weight:800}
+.formpanel{background:#fff;border:1px solid var(--line);border-radius:27px;padding:28px;box-shadow:var(--shadow)}.formrow{display:grid;grid-template-columns:repeat(2,1fr);gap:14px}.formfield label{display:block;font-size:10px;font-weight:900;letter-spacing:.1em;text-transform:uppercase;margin-bottom:6px}.formfield select,.formfield input{width:100%;padding:12px;border:1px solid var(--line);border-radius:11px;background:#fff}.output{margin-top:20px;border-radius:20px;padding:22px;background:linear-gradient(135deg,#061c3e,#0c684d);color:#fff}.output .score{font-size:32px;font-weight:900}.output small{color:#ffffff95}.reasons{display:grid;gap:7px;margin-top:12px}.reason{padding:9px;background:#ffffff0e;border:1px solid #ffffff14;border-radius:10px;font-size:11px}
+.progressbox{background:#fff;border:1px solid var(--line);border-radius:23px;padding:22px}.progressline{height:9px;border-radius:99px;background:#e4ecf2;overflow:hidden}.progressfill{height:100%;width:0;background:linear-gradient(90deg,var(--plum),var(--green),var(--yellow));transition:.3s}.progtext{display:flex;justify-content:space-between;font-size:12px;font-weight:800;margin-top:8px}
+.mapwrap{background:#071a3b;border-radius:28px;padding:25px;color:#fff;overflow:hidden}.mapgrid{display:grid;grid-template-columns:repeat(5,1fr);gap:9px}.mapcity{padding:14px;border-radius:15px;background:#ffffff0c;border:1px solid #ffffff16;cursor:pointer;text-align:center;font-weight:900;font-size:11px}.mapcity:hover,.mapcity.active{background:linear-gradient(135deg,#ff6f73,#a7ef58);color:#071a3b}.citydetail{margin-top:18px;background:#fff;color:var(--ink);border-radius:20px;padding:20px}.citydetail h3{margin:0 0 7px}.citydetail p{color:var(--muted);font-size:13px;line-height:1.7}
+.ai-fab{position:fixed;right:20px;bottom:20px;z-index:1200;border:0;border-radius:999px;padding:15px 18px;background:linear-gradient(135deg,#9dff51,#00f0b5);color:#06132d;font-weight:900;box-shadow:0 14px 35px #071a3b33;cursor:pointer}.ai-panel{position:fixed;right:20px;bottom:78px;width:min(390px,calc(100vw - 40px));height:540px;background:#fff;border:1px solid var(--line);border-radius:25px;z-index:1199;box-shadow:0 30px 80px #071a3b35;display:none;overflow:hidden}.ai-panel.open{display:flex;flex-direction:column}.ai-head{padding:16px 18px;background:linear-gradient(135deg,#071a3b,#1262a8);color:#fff;display:flex;justify-content:space-between;align-items:center}.ai-head button{border:0;background:#ffffff1a;color:#fff;border-radius:10px;padding:8px;cursor:pointer}.ai-msgs{flex:1;padding:14px;overflow:auto;background:#f7fafc}.msg{max-width:88%;padding:11px 12px;border-radius:16px;margin:8px 0;font-size:12px;line-height:1.6}.botmsg{background:#fff;border:1px solid var(--line)}.usermsg{background:#071a3b;color:#fff;margin-left:auto}.ai-input{display:flex;gap:8px;padding:10px;border-top:1px solid var(--line)}.ai-input input{flex:1;border:1px solid var(--line);border-radius:999px;padding:11px 13px;outline:0}.ai-input button{border:0;background:#071a3b;color:#fff;border-radius:999px;padding:0 15px;font-weight:900}
+.sourcebadge{display:inline-flex;gap:6px;align-items:center;font-size:9px;font-weight:900;padding:6px 9px;border-radius:999px;background:#eaf8ff;color:#11659c}.sourcestrip{margin-top:18px;padding:14px 16px;border:1px solid var(--line);border-radius:16px;background:#fff;color:var(--muted);font-size:11px;line-height:1.6}
+@media(max-width:1000px){.verifybar{top:70px}.toolgrid{grid-template-columns:1fr 1fr}.mapgrid{grid-template-columns:repeat(3,1fr)}}
+@media(max-width:620px){.verifybar{font-size:8px;justify-content:space-between;gap:8px}.verifybar a{display:none}.toolgrid,.formrow{grid-template-columns:1fr}.mapgrid{grid-template-columns:1fr 1fr}.ai-panel{height:500px}}
+
+.verifybar{position:fixed;top:70px;left:0;right:0;z-index:980;background:linear-gradient(90deg,#0f5a3a,#a42b48 52%,#a27b08);color:#fff;padding:7px 4%;display:flex;justify-content:center;align-items:center;gap:22px;font-size:10px}.verifybar span{color:#ffffffad}.verifybar a{font-weight:900;color:#fff}.view{min-height:calc(100vh - 113px)}
+.aboutgrid{display:grid;grid-template-columns:.85fr 1.15fr;gap:28px;align-items:center}.aboutcard{background:#fff;border:1px solid var(--line);border-radius:28px;padding:28px;box-shadow:var(--shadow)}.aboutcard h3{margin:0 0 9px}.aboutcard p{margin:0 0 14px;color:var(--muted);line-height:1.8;font-size:14px}
+.kicker.neon{color:#63d95f}.tagline{font:700 34px "Playfair Display",serif;line-height:1.08}.aboutbullets{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-top:18px}.aboutbullets div{padding:12px;border-radius:15px;background:#f0fae9;border:1px solid #ccefc0;font-size:12px;font-weight:800}
+.gksbig{display:grid;grid-template-columns:1fr 1fr;gap:18px}.gksblock{background:#fff;border:1px solid var(--line);border-radius:23px;padding:24px}.gksblock h3{margin:0 0 10px}.gksblock p{color:var(--muted);font-size:13px;line-height:1.78}.gksblock .detail{margin-top:13px;padding:12px;border-radius:13px;background:#fff8d8;border-left:4px solid var(--gold);font-size:11px;line-height:1.65}
+.tracktabs{display:flex;gap:8px;flex-wrap:wrap;margin:0 0 22px}.tracktab{border:1px solid var(--line);background:#fff;padding:9px 14px;border-radius:999px;font-size:11px;font-weight:900;cursor:pointer}.tracktab.active{background:var(--navy);color:#fff}.trackpanel{display:none}.trackpanel.active{display:block}
+.deadline{display:grid;grid-template-columns:repeat(4,1fr);gap:12px}.deadline div{padding:15px;border-radius:16px;background:#fff;border:1px solid var(--line)}.deadline strong{display:block;font-size:18px}.deadline small{color:var(--muted);font-size:10px}
+.uni-toolbar{background:#fff;border:1px solid var(--line);border-radius:20px;padding:18px;margin-bottom:18px}.fieldrow{display:grid;grid-template-columns:1.5fr repeat(3,1fr);gap:10px}.fieldrow input,.fieldrow select{width:100%;padding:11px;border:1px solid var(--line);border-radius:10px;background:#fff}.uni-meta{display:flex;gap:6px;flex-wrap:wrap;margin:9px 0}.uni-meta span{font-size:9px;padding:5px 7px;background:#edf7ff;border-radius:7px;font-weight:800;color:var(--plum)}
+.unicount{font-size:11px;color:var(--muted);margin:8px 0 18px}.uni-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:14px}.uni{background:#fff;border:1px solid var(--line);border-radius:20px;padding:20px}.uni h3{margin:7px 0 8px}.uni p{font-size:12px;line-height:1.7;color:var(--muted)}.uni a{font-size:11px;font-weight:900;color:var(--plum)}
+.festivaldetail{display:grid;grid-template-columns:1fr 1fr;gap:25px;align-items:start}.festinfo{background:#fff;border:1px solid var(--line);border-radius:25px;padding:25px}.festinfo h3{font-size:28px;margin:0 0 8px}.festinfo p{color:var(--muted);line-height:1.8;font-size:13px}.factrow{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-top:18px}.fact{padding:12px;border-radius:13px;background:#fff7dd;border:1px solid #f3df98}.fact strong{display:block;font-size:11px}.fact span{font-size:10px;color:var(--muted)}
+.officialsource{margin-top:17px;padding:13px;border-radius:14px;background:#effaf2;border:1px solid #c7ebd4;font-size:11px;line-height:1.7}.officialsource a{font-weight:900;color:#11643a}
+.toolnote{font-size:10px;color:var(--muted);margin-top:8px}
+@media(max-width:1000px){.aboutgrid,.gksbig,.festivaldetail{grid-template-columns:1fr}.fieldrow{grid-template-columns:1fr 1fr}.uni-grid{grid-template-columns:1fr 1fr}.deadline{grid-template-columns:1fr 1fr}.aboutbullets{grid-template-columns:1fr 1fr}}
+@media(max-width:620px){.verifybar{top:70px;font-size:8px;padding:7px 3%;justify-content:center}.verifybar a{display:none}.fieldrow,.uni-grid,.deadline,.aboutbullets{grid-template-columns:1fr}.tagline{font-size:28px}}
+
+.nav-search{display:flex;gap:5px;background:#f7fafc;border:1px solid var(--line);padding:4px;border-radius:999px;max-width:230px}.nav-search input{border:0;background:transparent;outline:0;padding:6px 9px;font-size:10px;min-width:0}.nav-search button{border:0;background:var(--lime);color:var(--navy);border-radius:50%;width:27px;height:27px;font-weight:900;cursor:pointer}.knowledge{display:grid;grid-template-columns:repeat(2,1fr);gap:18px}.knowledge article{background:#fff;border:1px solid var(--line);border-radius:22px;padding:24px}.knowledge h3{margin:0 0 9px}.knowledge p{color:var(--muted);font-size:14px;line-height:1.8;margin:0 0 13px}.detailbox{margin-top:12px;padding:14px;border-radius:14px;background:#fffbe7;border:1px solid #efdc86;font-size:12px;line-height:1.7}.facts{display:grid;grid-template-columns:repeat(3,1fr);gap:12px}.factcard{background:#fff;border:1px solid var(--line);border-radius:18px;padding:18px}.factcard strong{display:block;margin-bottom:6px}.factcard span{color:var(--muted);font-size:12px;line-height:1.65}.bigquote{font:700 31px/1.15 "Playfair Display",serif}.sourcepill{display:inline-flex;background:#e8faee;color:#1b6a44;padding:6px 9px;border-radius:999px;font-size:9px;font-weight:900;letter-spacing:.1em}.tablewrap{overflow:auto}.compacttable{border-collapse:collapse;width:100%;min-width:850px;background:#fff}.compacttable th,.compacttable td{border:1px solid var(--line);padding:11px;font-size:11px;text-align:left;vertical-align:top}.compacttable th{background:#173c31;color:#fff}.jumpbox{display:flex;gap:8px;flex-wrap:wrap;margin-top:15px}.jump{padding:8px 11px;background:#fff;border:1px solid var(--line);border-radius:999px;font-size:10px;font-weight:900;cursor:pointer}.jump:hover{background:var(--lime);border-color:var(--lime)}
+@media(max-width:1000px){.nav-search{order:2;margin-left:auto;margin-right:8px}.navin{flex-wrap:wrap}.knowledge{grid-template-columns:1fr}.facts{grid-template-columns:1fr 1fr}}
+@media(max-width:620px){.nav-search{max-width:145px}.nav-search input{width:85px}.facts{grid-template-columns:1fr}}
+
+.ownbar{display:grid;grid-template-columns:1.25fr 1fr 1fr 1fr;gap:12px;margin-bottom:25px}
+.ownlink{background:linear-gradient(135deg,#f2ffe8,#fff2eb);border:1px solid #dae8d0;border-radius:19px;padding:18px}
+.ownlink strong{display:block;margin-bottom:6px}.ownlink p{font-size:11px;color:var(--muted);line-height:1.6;margin:0 0 10px}.ownlink a{font-size:11px;font-weight:900;color:#0f6a3b}
+.festtabs{display:flex;gap:8px;flex-wrap:wrap;margin:0 0 22px}.festtab{border:1px solid var(--line);background:#fff;border-radius:999px;padding:9px 13px;font-size:11px;font-weight:900;cursor:pointer}.festtab.active{background:#143d2f;color:#fff}
+.festpanel{display:none}.festpanel.active{display:block}
+.festguide{display:grid;grid-template-columns:1fr 1fr;gap:18px}.guidecard{background:#fff;border:1px solid var(--line);border-radius:22px;padding:24px}.guidecard h3{margin:0 0 9px}.guidecard p{margin:0;color:var(--muted);font-size:13px;line-height:1.8}.guidecard .minihead{font-size:10px;letter-spacing:.12em;text-transform:uppercase;font-weight:900;color:#bb6d13;margin:15px 0 6px}
+.festfacts{display:grid;grid-template-columns:repeat(4,1fr);gap:11px;margin-top:18px}.ffact{padding:15px;background:#fffbe7;border:1px solid #eedc91;border-radius:15px}.ffact strong{display:block;font-size:11px}.ffact span{display:block;color:var(--muted);font-size:10px;line-height:1.6;margin-top:4px}
+.notrandom{padding:15px 17px;background:#eefcf4;border:1px solid #c8ebd5;border-radius:15px;color:#456558;font-size:11px;line-height:1.7}
+.official-links-block{margin-top:25px;padding:24px;background:#fff;border:1px solid var(--line);border-radius:24px}.official-links-block h3{margin:0 0 8px}.official-links-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:9px}.official-link{padding:10px 12px;border-radius:12px;background:#f7fafc;border:1px solid var(--line);font-size:11px}.official-link a{color:#1262a8;font-weight:900}
+.ai-note{font-size:9px;color:#ffffff78;margin-top:5px}
+@media(max-width:1000px){.ownbar{grid-template-columns:1fr 1fr}.festguide{grid-template-columns:1fr}.festfacts{grid-template-columns:1fr 1fr}.official-links-grid{grid-template-columns:1fr}}
+@media(max-width:620px){.ownbar,.festfacts{grid-template-columns:1fr}}
+
+/* V10 visual system */
+.visualnav{display:grid;grid-template-columns:repeat(6,1fr);gap:12px;margin-top:27px}
+.visualtile{position:relative;min-height:145px;border-radius:24px;overflow:hidden;padding:18px;display:flex;flex-direction:column;justify-content:flex-end;border:1px solid #ffffff55;box-shadow:0 14px 35px rgba(20,24,45,.12);transition:.28s;cursor:pointer}
+.visualtile:hover{transform:translateY(-7px) rotate(-.5deg);box-shadow:0 22px 48px rgba(20,24,45,.18)}
+.visualtile:before{content:"";position:absolute;inset:0;background:linear-gradient(145deg,#fff7 0%,transparent 50%,#0001 100%);pointer-events:none}
+.visualtile .icon{font-size:28px;position:absolute;left:16px;top:14px}
+.visualtile strong{font-size:15px;position:relative;z-index:2}.visualtile small{font-size:10px;margin-top:4px;opacity:.8;position:relative;z-index:2}
+.v-gks{background:linear-gradient(145deg,#6b4aa4,#ef7091)}.v-uni{background:linear-gradient(145deg,#5dbb7b,#d7e85f)}.v-city{background:linear-gradient(145deg,#5cc9ca,#7289e8)}.v-culture{background:linear-gradient(145deg,#ef7c69,#f3b6c9)}.v-fest{background:linear-gradient(145deg,#f1c54e,#ff8e65)}.v-life{background:linear-gradient(145deg,#63c77c,#8ae8bb)}
+.clickpanel{display:none;margin-top:18px;background:#fff;border:1px solid var(--line);border-radius:24px;padding:24px;box-shadow:var(--shadow);animation:pop .28s ease}
+.clickpanel.open{display:block}
+@keyframes pop{from{opacity:0;transform:translateY(8px) scale(.99)}to{opacity:1;transform:none}}
+.clickpanel-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:12px}
+.mini-nav{padding:15px;border-radius:16px;background:#fff8e8;border:1px solid #f0dfaa}.mini-nav strong{display:block;margin-bottom:6px}.mini-nav span{font-size:11px;color:var(--muted);line-height:1.6}
+.storygrid{display:grid;grid-template-columns:1.1fr .9fr;gap:18px}.storycard{min-height:260px;border-radius:26px;padding:28px;display:flex;flex-direction:column;justify-content:flex-end;color:#fff;position:relative;overflow:hidden;box-shadow:var(--shadow)}.storycard:before{content:"";position:absolute;inset:0;background:linear-gradient(180deg,transparent 20%,rgba(13,18,30,.8));}.storycard>*{position:relative;z-index:2}.storybig{background:linear-gradient(145deg,#6b4aa4,#ff7b63)}.storysmall{background:linear-gradient(145deg,#5dbb7b,#e7be46)}
+.badge{display:inline-block;width:max-content;padding:7px 10px;border-radius:999px;background:#ffffff24;border:1px solid #ffffff45;font-size:9px;font-weight:900;letter-spacing:.08em;text-transform:uppercase}.storycard h3{font:700 36px/1 "Playfair Display",serif;margin:8px 0}.storycard p{font-size:12px;line-height:1.7;color:#fffdf9c9}
+.scrollhint{margin-top:15px;font-size:10px;color:#fff9;font-weight:800;letter-spacing:.08em;text-transform:uppercase}
+.factpulse{display:grid;grid-template-columns:repeat(4,1fr);gap:12px}.pulse{padding:18px;border-radius:19px;background:linear-gradient(145deg,#fff,#fff8ea);border:1px solid var(--line)}.pulse .num{font:800 34px "Playfair Display",serif}.pulse small{display:block;color:var(--muted);font-size:10px;line-height:1.5}
+.festcards{display:grid;grid-template-columns:repeat(4,1fr);gap:14px}.festcard{border-radius:22px;padding:19px;min-height:190px;display:flex;flex-direction:column;justify-content:space-between;color:var(--ink);border:1px solid #ffffffaa;box-shadow:0 15px 35px rgba(32,28,44,.1);transition:.22s;cursor:pointer}.festcard:hover{transform:translateY(-6px) scale(1.01)}.festcard .emoji{font-size:28px}.festcard h3{font-size:17px;margin:8px 0 4px}.festcard p{font-size:10px;line-height:1.6;color:#525b66}.spring{background:linear-gradient(145deg,#ffe5f0,#fff0a9)}.summer{background:linear-gradient(145deg,#dff8ff,#c9f2d6)}.autumn{background:linear-gradient(145deg,#ffd8b7,#ffe77a)}.winter{background:linear-gradient(145deg,#e7e2ff,#d9fbff)}
+.section-cta{margin-top:18px;display:inline-flex;padding:11px 15px;border-radius:999px;background:var(--navy);color:#fff;font-size:11px;font-weight:900}
+@media(max-width:1100px){.visualnav{grid-template-columns:repeat(3,1fr)}.storygrid{grid-template-columns:1fr}.clickpanel-grid{grid-template-columns:1fr 1fr}.festcards{grid-template-columns:1fr 1fr}.factpulse{grid-template-columns:1fr 1fr}}
+@media(max-width:620px){.visualnav{grid-template-columns:1fr 1fr}.clickpanel-grid,.festcards,.factpulse{grid-template-columns:1fr}.visualtile{min-height:125px}.storycard h3{font-size:30px}}
+
+.theme-picker{position:fixed;left:18px;bottom:18px;z-index:1180;background:rgba(255,252,246,.94);backdrop-filter:blur(18px);border:1px solid var(--line);border-radius:18px;padding:10px 11px;box-shadow:0 15px 45px rgba(24,24,35,.16);font-size:10px}
+.theme-picker summary{cursor:pointer;font-weight:900;list-style:none}.theme-picker summary::-webkit-details-marker{display:none}
+.theme-options{display:grid;grid-template-columns:1fr 1fr;gap:7px;margin-top:9px}.theme-btn{border:1px solid var(--line);border-radius:11px;padding:8px 9px;background:#fff;cursor:pointer;text-align:left;font-size:10px;font-weight:900}.theme-btn:hover{transform:translateY(-2px)}.theme-btn.active{outline:2px solid var(--lime)}
+body.theme-sunset{--paper:#fbf3ed;--cream:#fff9f0;--plum:#6a3459;--rose:#f16c86;--coral:#ff815e;--gold:#edbb46;--yellow:#ffe36b;--green:#5bbb79;--lime:#b9ef68;--mint:#bfe8d3;--aqua:#74ced0;--lav:#cfb3e7;--pink:#f2aacb;--navy:#25203b}
+body.theme-neon{--paper:#f7fbf5;--cream:#fbfff6;--plum:#3d315d;--rose:#ef4e72;--coral:#ff6f4e;--gold:#f8c843;--yellow:#fff070;--green:#45c978;--lime:#c6fa50;--mint:#a8eed4;--aqua:#54d9da;--lav:#b9a5ff;--pink:#ffadd5;--navy:#182237}
+body.theme-forest{--paper:#f4f8f1;--cream:#f9fff2;--plum:#234a3a;--rose:#c6526d;--coral:#e67761;--gold:#d5b445;--yellow:#f3df6c;--green:#3fa66d;--lime:#9fe15c;--mint:#b9e3cb;--aqua:#67cfc3;--lav:#bdaed9;--pink:#e9adbf;--navy:#16352b}
+body.theme-berry{--paper:#fbf3f8;--cream:#fff8fb;--plum:#58305f;--rose:#dc567b;--coral:#f07b6b;--gold:#e8bd51;--yellow:#ffe476;--green:#63be83;--lime:#afe76b;--mint:#c2e8d8;--aqua:#6ccdd0;--lav:#c4b0eb;--pink:#f4a7ca;--navy:#241c3a}
+.theme-dot{display:inline-block;width:10px;height:10px;border-radius:50%;margin-right:6px;vertical-align:-1px}
+
+.reveal-item{opacity:0;transform:translateY(22px);transition:opacity .7s ease,transform .7s cubic-bezier(.2,.8,.2,1)}.reveal-item.in{opacity:1;transform:none}
+
+/* NURIWAVE V11 — page-specific visual identities */
+.page-kicker{display:inline-flex;align-items:center;gap:7px;padding:7px 11px;border-radius:999px;background:#ffffff18;border:1px solid #ffffff2a;color:#fff;font-size:9px;letter-spacing:.12em;text-transform:uppercase;font-weight:900}
+.page-intro{max-width:760px;color:var(--muted);font-size:15px;line-height:1.85}
+.section-divider{height:1px;background:linear-gradient(90deg,transparent,#dccfc1,transparent);margin:0 5%}
+.shape-cluster{position:absolute;inset:0;pointer-events:none;overflow:hidden}
+.shape{position:absolute;border-radius:50%;opacity:.38;filter:blur(.2px);animation:shapeFloat 9s ease-in-out infinite}
+.shape.s1{width:95px;height:95px;right:11%;top:15%;background:var(--lime)}.shape.s2{width:52px;height:52px;right:25%;top:38%;background:var(--rose);animation-delay:2s}.shape.s3{width:145px;height:145px;left:54%;bottom:-45px;background:var(--yellow);animation-delay:4s}
+@keyframes shapeFloat{0%,100%{transform:translate3d(0,0,0) rotate(0)}50%{transform:translate3d(10px,-17px,0) rotate(8deg)}}
+.hero.gks-hero{background:radial-gradient(circle at 18% 20%,#a8ef5f2a,transparent 25%),radial-gradient(circle at 78% 16%,#f6a7cf22,transparent 28%),linear-gradient(135deg,#362244,#6b3157 55%,#17243c)}
+.hero.uni-hero{background:radial-gradient(circle at 20% 24%,#baf16b24,transparent 26%),linear-gradient(135deg,#143f33,#315b45 48%,#17243c)}
+.hero.korea-hero{background:radial-gradient(circle at 15% 22%,#74d7d526,transparent 27%),linear-gradient(135deg,#24345c,#465b96 48%,#1e2c47)}
+.hero.culture-hero{background:radial-gradient(circle at 20% 20%,#ffb55f25,transparent 24%),linear-gradient(135deg,#5b2e48,#963c65 52%,#372c59)}
+.hero.festival-hero{background:radial-gradient(circle at 20% 20%,#ffe87020,transparent 24%),radial-gradient(circle at 82% 20%,#ff816725,transparent 23%),linear-gradient(135deg,#7c451a,#c95e48 52%,#4a285d)}
+.hero.life-hero{background:radial-gradient(circle at 22% 25%,#baf16b20,transparent 23%),linear-gradient(135deg,#1f4937,#4c7a52 52%,#172f42)}
+.hero.resources-hero{background:radial-gradient(circle at 20% 20%,#c9b5ed26,transparent 26%),linear-gradient(135deg,#432a58,#66588f 55%,#253149)}
+.hero.about-hero{background:radial-gradient(circle at 20% 20%,#ff9e7d25,transparent 25%),linear-gradient(135deg,#5d2d50,#a34867 55%,#292e47)}
+.hero.current-hero{background:radial-gradient(circle at 16% 22%,#ffe56b20,transparent 24%),linear-gradient(135deg,#51351b,#9a6930 48%,#29354b)}
+.page-orbit{display:grid;grid-template-columns:1.05fr .95fr;gap:18px;align-items:stretch}
+.orbit-main{background:#fff;border:1px solid var(--line);border-radius:30px;padding:30px;position:relative;overflow:hidden;min-height:330px}
+.orbit-main:after{content:"";position:absolute;width:280px;height:280px;border-radius:50%;right:-120px;top:-120px;background:var(--pink);opacity:.35}
+.orbit-ring{display:grid;grid-template-columns:1fr 1fr;gap:13px;position:relative;z-index:2}.orbit-item{background:#fffaf2;border:1px solid #eee1cf;border-radius:20px;padding:17px;transition:.2s;cursor:pointer}.orbit-item:hover{transform:translateY(-5px) rotate(-.4deg);box-shadow:var(--shadow2)}.orbit-item b{display:block;margin-bottom:5px}.orbit-item span{font-size:10px;line-height:1.6;color:var(--muted)}
+.visual-steps{display:grid;grid-template-columns:repeat(4,1fr);gap:13px}.visual-step{padding:20px;border-radius:20px;border:1px solid var(--line);background:#fff;position:relative;overflow:hidden}.visual-step:after{content:"";position:absolute;width:70px;height:70px;border-radius:50%;right:-25px;bottom:-25px;background:var(--accent,var(--mint));opacity:.42}.visual-step .n{font:800 28px "Playfair Display",serif}.visual-step h3{margin:7px 0 5px;font-size:16px}.visual-step p{margin:0;color:var(--muted);font-size:11px;line-height:1.6}
+.topic-band{display:grid;grid-template-columns:repeat(3,1fr);gap:13px}.topic-panel{padding:21px;border-radius:21px;min-height:180px;color:#fff;position:relative;overflow:hidden;transition:.23s}.topic-panel:hover{transform:translateY(-6px)}.topic-panel:after{content:"";position:absolute;width:110px;height:110px;border-radius:50%;right:-40px;top:-35px;border:1px solid #fff5}.topic-panel h3{margin:0 0 7px;font-size:19px}.topic-panel p{margin:0;color:#fff;opacity:.82;font-size:11px;line-height:1.7}.tp-a{background:linear-gradient(145deg,#5b2d78,#d95d83)}.tp-b{background:linear-gradient(145deg,#37724b,#79b84e)}.tp-c{background:linear-gradient(145deg,#98651f,#ef8869)}
+.quickjump{position:sticky;top:112px;z-index:50;margin:0 auto 26px;max-width:1280px;padding:0 5%}.quickinner{display:flex;gap:8px;flex-wrap:wrap;background:rgba(255,252,246,.9);backdrop-filter:blur(14px);padding:8px;border:1px solid var(--line);border-radius:999px;box-shadow:0 8px 30px rgba(30,25,35,.08)}.quickinner a{padding:8px 11px;border-radius:999px;font-size:10px;font-weight:900}.quickinner a:hover{background:var(--navy);color:#fff}
+.page-marker{margin:0 5%;padding:18px 0 0;max-width:1280px;font-size:10px;font-weight:900;color:var(--muted);letter-spacing:.11em;text-transform:uppercase}
+@media(max-width:1000px){.page-orbit{grid-template-columns:1fr}.visual-steps{grid-template-columns:1fr 1fr}.topic-band{grid-template-columns:1fr 1fr}}
+@media(max-width:620px){.visual-steps,.topic-band{grid-template-columns:1fr}.orbit-ring{grid-template-columns:1fr}.quickjump{top:105px}}
+
+.reveal-pro{opacity:0;transform:translateY(18px) scale(.985);transition:opacity .7s cubic-bezier(.2,.8,.2,1),transform .7s cubic-bezier(.2,.8,.2,1)}.reveal-pro.in{opacity:1;transform:none}
+</style>
+</head>
+<body>
+<header class="nav"><div class="navin">
+<a class="brand" href="#home"><img src="nuriwave-logo.jpeg" alt="NuriWave logo"><span>NURIWAVE</span></a>
+<nav class="navlinks" id="navlinks">
+<a href="#home">Home</a><a href="#study">Study</a><a href="#gks">GKS</a><a href="#universities">Universities</a><a href="#korea">Korea</a><a href="#culture">Culture</a><a href="#festivals">Festivals</a><a href="#life">Life</a><a href="#tools">Tools</a><a href="#resources">Resources</a><a href="#current">Current</a><a href="#about">About</a><a href="#contact" class="navcta">Contact</a>
+</nav><button class="menu" id="menu">☰</button></div></header>
+
+<a href="#resources">View official sources →</a></div><div class="verifybar">
+  <div><strong>✓ NuriWave source-aware content</strong> <span>Current and year-sensitive details point to official Korean government, university or organizer sources.</span></div>
+  <a href="#resources">Official sources →</a>
+</div>
+<main>
+<section class="view active" id="home">
+<div class="hero"><div class="hero-copy"><div class="eyebrow">Korea • Journey • Beyond</div><h1>Your wave into <em>Korea.</em></h1><p>NuriWave is a practical Korea information platform for students, future applicants and curious explorers. Explore GKS, university choices, Korean cities, culture, festivals and everyday student life — all in one place.</p><div class="btns"><a class="btn primary" href="#gks">Explore GKS →</a><a class="btn secondary" href="#universities">Find a university</a></div></div>
+<section class="mix home-opener"><div class="wrap">
+  <div class="head">
+    <div><div class="kicker">Welcome to NuriWave</div><h2>Start with what you came for.</h2></div>
+    <p>NuriWave is a Korea-focused knowledge platform for study, GKS, universities, culture, festivals and student life. Choose a subject once — the full guide opens below without repeating the same intro everywhere.</p>
+  </div>
+</div></section>
+<div class="hero-img" style="background-image:url('https://images.unsplash.com/photo-1538485399081-7c897a0f5f0b?auto=format&fit=crop&w=1800&q=85')"></div></div>
+<h2 style="font-size:35px">Tap a world inside NuriWave.</h2></div><p>These are the main knowledge paths. Every tile opens a full section instead of sending visitors away.</p></div>
+<div class="clickpanel-grid">
+<div class="mini-nav"><strong>🏆 GKS</strong><span>Deep scholarship explanations, current-source verification and application strategy.</span></div>
+<div class="mini-nav"><strong>🏫 Universities</strong><span>Search the GKS university discovery directory by name, city and type.</span></div>
+<div class="mini-nav"><strong>🗺️ Korea</strong><span>Explore cities, regional character and practical budget planning.</span></div>
+<div class="mini-nav"><strong>🎎 Culture</strong><span>Learn Korean, food, etiquette, heritage and cultural context.</span></div>
+<div class="mini-nav"><strong>🎉 Festivals</strong><span>Deep guides explaining the reason, history, timing and experiences.</span></div>
+<div class="mini-nav"><strong>🧑‍🎓 Life</strong><span>Understand the real systems and routines around student life.</span></div>
+</div></div>
+
+<section class="mix"><div class="wrap"><div class="head"><div><div class="kicker">The NuriWave idea</div><h2>Not just a destination.</h2></div><p>Every major subject has its own view inside this single HTML website, so you can switch pages without managing separate HTML files.</p></div><div class="paras">
+<article class="para"><h3>Explore Korea</h3><p>Korea brings historic palaces, mountain landscapes, coastal cities, advanced technology, regional food, seasonal festivals and a rapidly changing creative culture into one country. NuriWave organizes these topics so a reader can understand the context behind the places, ideas and experiences instead of seeing only isolated social-media moments.</p></article>
+<article class="para"><h3>Learn with purpose</h3><p>For students, the journey involves more than choosing a university name. You need to understand programs, language of instruction, documents, scholarships, costs, housing, transportation and the practical adjustments of living abroad. The website turns those questions into focused guides and small tools that are easier to revisit.</p></article>
+<article class="para"><h3>Understand GKS</h3><p>The Global Korea Scholarship is one of the most searched routes into Korea, yet its details can change by year and by track. NuriWave explains the common structure in plain language and sends users to the current official government notice whenever eligibility, benefits, dates, quotas or documents are involved.</p></article>
+<article class="para"><h3>Experience the everyday</h3><p>Food, Korean language, transport, etiquette, housing, student communities and seasonal life shape the experience beyond famous attractions. NuriWave is designed to help readers prepare for those ordinary moments as well as the exciting ones.</p></article>
+</div></div></section>
+<section><div class="wrap"><div class="head"><div><div class="kicker">Start here</div><h2>Choose your path.</h2></div><p>Each card opens a dedicated view inside this one-page application.</p></div><div class="cards">
+<a class="card" href="#gks"><img src="https://images.unsplash.com/photo-1538485399081-7c897a0f5f0b?auto=format&fit=crop&w=1200&q=85"><div class="body"><h3>GKS Scholarship</h3><p>What GKS is, common tracks, preparation, checklist and official notices.</p><span class="arrow">Open GKS →</span></div></a>
+<a class="card" href="#universities"><img src="https://images.unsplash.com/photo-1562774053-701939374585?auto=format&fit=crop&w=1200&q=85"><div class="body"><h3>University Finder</h3><p>Search a starter university directory and open official university sites.</p><span class="arrow">Find universities →</span></div></a>
+<a class="card" href="#study"><img src="https://images.unsplash.com/photo-1569526324-593bc073d938?auto=format&fit=crop&w=1200&q=85"><div class="body"><h3>Study in Korea</h3><p>Admission planning, documents, language, budget and arrival.</p><span class="arrow">Read Study Guide →</span></div></a>
+<a class="card" href="#korea"><img src="https://images.unsplash.com/photo-1546874177-9e664107314e?auto=format&fit=crop&w=1200&q=85"><div class="body"><h3>Korea Explorer</h3><p>Cities, regional differences and an illustrative budget calculator.</p><span class="arrow">Explore Korea →</span></div></a>
+<a class="card" href="#culture"><img src="https://images.unsplash.com/photo-1583224964978-2257b960c3a3?auto=format&fit=crop&w=1200&q=85"><div class="body"><h3>Culture & Language</h3><p>Hangul, phrases, etiquette, food and heritage.</p><span class="arrow">Learn Culture →</span></div></a>
+<a class="card" href="#festivals"><img src="https://images.unsplash.com/photo-1537996194471-e657df975ab4?auto=format&fit=crop&w=1200&q=85"><div class="body"><h3>Festivals</h3><p>Seasonal events, cultural background and practical planning.</p><span class="arrow">Open Festivals →</span></div></a>
+</div></div></section>
+</section>
+
+
+<section class="view" id="about">
+  <div class="hero">
+    <div class="hero-copy">
+      <div class="eyebrow">NuriWave • About</div>
+      <h1>Why <em>NuriWave</em> exists.</h1>
+      <p>NuriWave is built to make South Korea easier to understand for people who want more than short posts: deeper study guidance, GKS explanations, university discovery, city context, culture, festivals and practical student-life information.</p>
+      <div class="btns"><a class="btn primary" href="#gks">Explore GKS</a><a class="btn secondary" href="#universities">Explore universities</a></div>
+    </div>
+    <div class="hero-img" style="background-image:url('https://images.unsplash.com/photo-1538485399081-7c897a0f5f0b?auto=format&fit=crop&w=1700&q=85')"></div>
+  </div>
+  <section class="mix"><div class="wrap"><div class="aboutgrid">
+    <div class="aboutcard"><div class="kicker neon">Korea • Journey • Beyond</div><div class="tagline">A bridge between curiosity and useful knowledge.</div><div class="aboutbullets">
+      <div>🎓 Study & GKS</div><div>🏫 Universities</div><div>🗺️ Cities & regions</div><div>🎎 Culture</div><div>🎉 Festivals</div><div>🧑‍🎓 Student life</div>
+    </div></div>
+<div class="page-marker">About NuriWave · The platform itself</div>
+<section class="mix"><div class="wrap"><div class="head"><div><div class="kicker">Why this exists</div><h2>More useful than a scroll.</h2></div><p>NuriWave is designed to help people understand South Korea deeply, whether they are preparing to study, exploring culture or planning a trip.</p></div><div class="mastergrid">
+<article class="mastercard"><div class="accent green"></div><h3>Research first</h3><p>The site is built around real questions people have — not only around marketing categories.</p></article>
+<article class="mastercard"><div class="accent rose"></div><h3>NuriWave first</h3><p>Your own form, social channels and guides stay at the center; official sites are used for verification.</p></article>
+<article class="mastercard"><div class="accent yellow"></div><h3>Current-aware</h3><p>Year-sensitive information is clearly separated from background explanations.</p></article>
+<article class="mastercard"><div class="accent lav"></div><h3>Made to explore</h3><p>Visual tiles, search, deep festival guides and tools make the site something visitors can return to.</p></article>
+</div></div></section>
+
+    <div><div class="head" style="margin-bottom:15px"><div><div class="kicker">What NuriWave covers</div><h2>Read beyond the headline.</h2></div></div>
+      <div class="paras">
+        <article class="para"><h3>Explainers</h3><p>Complex topics like GKS tracks, admissions, language requirements, immigration and student systems are broken down into ordinary language, while important decisions still point to the official source.</p></article>
+        <article class="para"><h3>Discovery</h3><p>Instead of only presenting “top” destinations, NuriWave helps visitors compare cities, university types, regional identities, food, heritage and seasonal experiences.</p></article>
+        <article class="para"><h3>Practical tools</h3><p>Interactive calculators, search, comparison tools and planners are there to help someone explore possibilities quickly before doing their formal research.</p></article>
+        <article class="para"><h3>Responsible information</h3><p>Scholarship, admission, visa, employment, insurance and event details can change. NuriWave therefore distinguishes educational explanation from information that needs current official verification.</p></article>
+      </div>
+    </div>
+  </div></div></section>
+</section>
+
+
+<section class="view" id="study">
+<div class="hero"><div class="hero-copy"><div class="eyebrow">Study • Universities • Preparation</div><h1>Make your <em>Korea study plan.</em></h1><p>Start with academic fit, then work through language, documents, finances, timing and arrival preparation. A good application is built around the exact program you want — not just the university brand.</p><div class="btns"><a class="btn primary" href="https://www.studyinkorea.go.kr/en/main.do" target="_blank">Study in Korea — Official</a><a class="btn secondary" href="#universities">University Finder</a></div></div>
+<div class="page-marker">Study in Korea · Your study planning guide</div>
+<div class="quickjump"><div class="quickinner"><a href="#study">Start here</a><a href="#universities">Universities</a><a href="#gks">GKS</a><a href="#korea">Cities</a><a href="#resources">Official sources</a></div></div>
+<section class="mix"><div class="wrap"><div class="page-orbit">
+<div class="orbit-main"><div class="kicker">Read this first</div><h2 class="bigquote" style="margin:12px 0 14px">Studying in Korea is a journey of decisions, not one application.</h2><p class="page-intro">Before opening a university form, a new student has to understand the degree, department, teaching language, admissions route, money, housing, city and legal requirements. This opening panel tells a first-time visitor what the rest of the Study section is actually for.</p><div class="jumpbox"><a class="jump" href="#gks">Need scholarship? → GKS</a><a class="jump" href="#universities">Need university options? → Universities</a><a class="jump" href="#life">Need everyday life? → Student Life</a></div></div>
+<div class="orbit-ring"><div class="orbit-item"><b>🎯 Decide the goal</b><span>Degree level, field and language first — university brand second.</span></div><div class="orbit-item"><b>🔎 Investigate</b><span>Compare departments, curriculum, location, cost and international support.</span></div><div class="orbit-item"><b>📑 Verify</b><span>Use current admissions and government sources for requirements and deadlines.</span></div><div class="orbit-item"><b>🌏 Prepare</b><span>Think about housing, transport, insurance, Korean and your first weeks.</span></div></div>
+</div></div></section>
+<div class="hero-img" style="background-image:url('https://images.unsplash.com/photo-1562774053-701939374585?auto=format&fit=crop&w=1700&q=85')"></div></div>
+<section class="mix"><div class="wrap"><div class="head"><div><div class="kicker">01 • Academic fit</div><h2>Start with the program.</h2></div><p>Think department first, then institution, then location and lifestyle.</p></div><div class="paras">
+<article class="para"><h3>Choose your goal</h3><p>Decide whether you are seeking undergraduate study, a master's, a PhD, exchange study or Korean-language training. Your goal determines which institutions and application routes deserve your attention.</p></article>
+<article class="para"><h3>Compare the department</h3><p>Look at curriculum, course language, laboratories, research areas, faculty and the actual modules you expect to study. A university-wide reputation cannot tell you how well a particular department fits your goals.</p></article>
+<article class="para"><h3>Check the requirements</h3><p>International admission requirements can vary between universities and departments. Check accepted language tests, academic thresholds, portfolios, interviews and the exact document format for every institution.</p></article>
+<article class="para"><h3>Build your timeline</h3><p>Work backward from the official deadline and leave buffer time for language tests, recommendations, translations, authentication and portal uploads. A calendar prevents avoidable last-minute problems.</p></article>
+</div></div></section>
+<section class="greensec"><div class="wrap"><div class="head"><div><div class="kicker">02 • Preparation</div><h2>Four things to organize early.</h2></div><p>Preparation becomes easier when everything has a place.</p></div><div class="pills">
+<div class="pill"><b>📄</b><h3>Documents</h3><p>Academic records, graduation evidence, passport documents, statements, recommendations and program-specific materials.</p></div>
+<div class="pill"><b>🗣️</b><h3>Language</h3><p>Know whether your program is Korean-taught, English-taught or mixed and which evidence is accepted.</p></div>
+<div class="pill"><b>💰</b><h3>Budget</h3><p>Plan beyond tuition: housing, food, transport, insurance, phone, deposits and setup costs.</p></div>
+<div class="pill"><b>🧭</b><h3>Arrival</h3><p>Prepare visa/stay instructions, accommodation, registration, transport and emergency contacts.</p></div>
+</div></div></section>
+<section class="navysec"><div class="wrap"><div class="head"><div><div class="kicker">03 • After acceptance</div><h2>Turn arrival into a plan.</h2></div><p>Admission is only the beginning.</p></div><div class="timeline">
+<div class="step"><strong>Before departure</strong><p>Confirm current university and visa instructions, housing, travel documents, emergency contacts and your first route from the airport.</p></div>
+<div class="step"><strong>Arrival week</strong><p>Complete orientation or registration, activate connectivity, settle into accommodation and learn the route to campus.</p></div>
+<div class="step"><strong>First month</strong><p>Understand your timetable, campus systems, insurance status, payment needs and the international-student services available to you.</p></div>
+<div class="step"><strong>Build a routine</strong><p>Consider one club, language exchange or student community that genuinely interests you. A small routine can make a new country feel familiar.</p></div>
+</div></div></section>
+</section>
+
+
+<section class="view" id="gks">
+  <div class="hero"><div class="hero-copy"><div class="eyebrow">GKS • Government Scholarship • 2026</div><h1>Understand GKS <em>properly.</em></h1><p>GKS is the Korean government's scholarship program for international students. The 2026 graduate program plans to invite 2,000 students; the undergraduate program has its own quota and structure. Track, degree level, university eligibility, deadlines and selection details differ by program and must be checked against the current official notice.</p><div class="btns"><a class="btn primary" href="https://www.studyinkorea.go.kr/en/plan/gksNotice.do" target="_blank">Official GKS notices</a><a class="btn secondary" href="https://forms.gle/BQpPY83xHupGYSqe8" target="_blank">NuriWave GKS Query</a></div></div>
+<div class="page-marker">GKS · Scholarship guide</div>
+<section class="mix"><div class="wrap"><div class="visual-steps">
+<div class="visual-step" style="--accent:var(--lav)"><div class="n">01</div><h3>Understand GKS</h3><p>Know what the Korean government scholarship is and which program you are looking at.</p></div>
+<div class="visual-step" style="--accent:var(--lime)"><div class="n">02</div><h3>Pick the route</h3><p>Understand Embassy Track, University Track and the program-specific structure.</p></div>
+<div class="visual-step" style="--accent:var(--yellow)"><div class="n">03</div><h3>Research universities</h3><p>Check the current GKS University Information file and your actual department.</p></div>
+<div class="visual-step" style="--accent:var(--pink)"><div class="n">04</div><h3>Prepare the evidence</h3><p>Build your documents and writing around the exact current annual guideline.</p></div>
+</div></div></section>
+<div class="hero-img" style="background-image:url('https://images.unsplash.com/photo-1538485399081-7c897a0f5f0b?auto=format&fit=crop&w=1700&q=85')"></div></div>
+  <section class="mix"><div class="wrap"><div class="head"><div><div class="kicker">01 • What GKS is</div><h2>Read the structure, not just the benefits.</h2></div><p>GKS combines scholarship support with a formal selection system administered through NIIED and the relevant embassy or designated university. The official annual guideline controls the details.</p></div>
+  <div class="gksbig">
+    <article class="gksblock"><h3>What it is</h3><p>A government-invited scholarship degree program designed to bring international students to Korea and strengthen educational and international networks. Study in Korea describes degree routes for undergraduate and graduate students as well as specialized programs.</p><div class="detail"><strong>Important:</strong> “GKS” does not mean every applicant follows the same process. Undergraduate and graduate programs use different annual guidelines.</div></article>
+    <article class="gksblock"><h3>What support can include</h3><p>Study in Korea lists scholarship benefits including airfare, Korean-language training, tuition and study allowances for the GKS degree programs. The exact amounts, conditions and duration depend on the current program guideline.</p><div class="detail"><strong>Do not use old figures:</strong> benefit tables can change by year and program.</div></article>
+    <article class="gksblock"><h3>Who manages it</h3><p>The National Institute for International Education (NIIED) is the central organization shown on the official Study in Korea GKS notices. The first screening stage is handled by the relevant embassy or designated university, depending on the track.</p></article>
+    <article class="gksblock"><h3>Where to submit</h3><p>For degree programs, the official GKS information states that applicants submit either through the Korean Embassy in their country of citizenship or directly to a designated Korean university, depending on the track.</p></article>
+  </div></div></section>
+  <section class="coralsec"><div class="wrap"><div class="head"><div><div class="kicker">02 • GKS-U / GKS-G</div><h2>Which program are you looking at?</h2></div><p>Switch the tab to see the current broad framework. This is educational guidance, not an eligibility decision.</p></div>
+    <div class="tracktabs"><button class="tracktab active" data-track="under">GKS-U • Undergraduate</button><button class="tracktab" data-track="grad">GKS-G • Graduate</button></div>
+    <div class="trackpanel active" id="track-under"><div class="deadline">
+      <div><strong>~500</strong><small>Current Study in Korea page: undergraduates (incl. associate) selection quota.</small></div>
+      <div><strong>Under 25</strong><small>Current general eligibility criterion shown on Study in Korea; verify annual guideline.</small></div>
+      <div><strong>80%+</strong><small>Current general academic criterion shown on Study in Korea; verify the exact rule for your qualification.</small></div>
+      <div><strong>Sep–Oct</strong><small>Current broad application window shown on Study in Korea for undergraduate programs.</small></div>
+    </div><div class="paras" style="margin-top:18px">
+      <article class="para"><h3>Embassy Track</h3><p>The 2026 undergraduate page lists General, Overseas Korean and R-GKS tracks. General/Overseas Korean applicants can apply to up to three universities and must include at least one Type B choice; R-GKS can use up to two Type B choices.</p></article>
+      <article class="para"><h3>University Track</h3><p>The current GKS-U structure includes UIC and associate-degree routes. The official application guide says University Track applicants choose one university for those routes, subject to the applicable program.</p></article>
+    </div></div>
+    <div class="trackpanel" id="track-grad"><div class="deadline">
+      <div><strong>2,000</strong><small>2026 GKS-G planned graduate intake.</small></div>
+      <div><strong>Under 40</strong><small>Current general graduate age criterion shown by Study in Korea; verify the exact guideline.</small></div>
+      <div><strong>80%+</strong><small>Current general academic criterion shown by Study in Korea; verify the exact rule for your degree.</small></div>
+      <div><strong>Feb–Mar</strong><small>Current broad application window shown on Study in Korea for graduate programs.</small></div>
+    </div><div class="paras" style="margin-top:18px">
+      <article class="para"><h3>General program</h3><p>Graduate GKS includes broad fields across humanities, social sciences, natural sciences and related disciplines.</p></article>
+      <article class="para"><h3>Specialization</h3><p>The current program page includes R&D, Global Network and other specialized routes. R&D is for science/engineering-related fields; Global Network is a master's-level route conducted mainly in English without Korean-language training.</p></article>
+    </div></div>
+  </section>
+  <section class="lavsec"><div class="wrap"><div class="head"><div><div class="kicker">03 • Strategy</div><h2>What should an applicant actually research?</h2></div><p>This is where NuriWave can be more useful than a generic scholarship post.</p></div>
+    <div class="paras">
+      <article class="para"><h3>Track fit</h3><p>Do not choose Embassy or University Track because one “sounds easier.” Start from your country route, program category, eligible universities and the current annual instructions.</p></article>
+      <article class="para"><h3>University fit</h3><p>Check the department, degree language, research or curriculum, scholarship conditions, location and international support. A famous name is not automatically the best personal fit.</p></article>
+      <article class="para"><h3>Document fit</h3><p>Read the annual document list line by line. Some documents may have specific translation, authentication, format or issue-date requirements.</p></article>
+      <article class="para"><h3>Writing fit</h3><p>Your personal statement and study plan should explain a coherent academic direction, why Korea and the chosen program fit it, and what you intend to do with the opportunity.</p></article>
+    </div>
+    <div class="officialsource"><strong>Official source:</strong> <a href="https://www.studyinkorea.go.kr/en/plan/gksNotice.do" target="_blank">Study in Korea GKS notices</a>. Current notices and attached university information are the final reference for the application year.</div>
+  </div></section>
+</section>
+
+
+<section class="view" id="universities">
+<div class="hero"><div class="hero-copy"><div class="eyebrow">GKS • University Research</div><h1>Go from <em>list → shortlist → verify.</em></h1><p>This directory is for discovery. It brings together the university names shown on the current GKS university information pages and gives you a structured way to search them. The exact eligible university and department for your track must still be checked in the current official University Information file.</p><div class="btns"><a class="btn primary" href="https://www.studyinkorea.go.kr/ko/plan/scholarship.do" target="_blank">Official GKS university information</a><a class="btn secondary" href="#tools">Research tools</a></div></div>
+<div class="page-marker">University Atlas · Search and compare</div>
+<section class="greensec"><div class="wrap"><div class="topic-band">
+<div class="topic-panel tp-a"><h3>Discover</h3><p>Search by institution, city and GKS type so you can build a research shortlist without leaving the NuriWave experience.</p></div>
+<div class="topic-panel tp-b"><h3>Compare</h3><p>Use NuriWave's framework for department fit, teaching language, cost, location, international support and GKS route.</p></div>
+<div class="topic-panel tp-c"><h3>Verify</h3><p>When you are ready, move to the official university and GKS University Information files for the final, current details.</p></div>
+</div></div></section>
+<div class="hero-img" style="background-image:url('https://images.unsplash.com/photo-1562774053-701939374585?auto=format&fit=crop&w=1700&q=85')"></div></div>
+<section class="mix"><div class="wrap"><div class="head"><div><div class="kicker">01 • Advanced search</div><h2>Search by multiple factors.</h2></div><p>Use name, city and GKS category together. The directory is a research aid, not a ranking.</p></div>
+<div class="uni-toolbar" style="background:#fff;border:1px solid var(--line);border-radius:22px;padding:18px">
+<div class="fieldrow" style="display:grid;grid-template-columns:1.6fr 1fr 1fr auto;gap:10px">
+<input id="gksUniSearch" placeholder="University, city or keyword…"><select id="gksUniCity"><option value="all">All cities</option></select><select id="gksUniTrack"><option value="all">All GKS types</option><option value="A">Type A</option><option value="B">Type B</option></select><button class="btn darkbtn" id="resetUni">Reset</button>
+</div></div>
+<div class="ownbar">
+          <div class="ownlink"><strong>🎓 NuriWave University Research</strong><p>Start with NuriWave's explanations of admissions, GKS, program fit and city context.</p><a href="#study">Read Study Guide →</a></div>
+          <div class="ownlink"><strong>🏆 GKS Query</strong><p>Ask NuriWave a GKS-related question through the dedicated form.</p><a href="https://forms.gle/BQpPY83xHupGYSqe8" target="_blank">Open My GKS Form →</a></div>
+          <div class="ownlink"><strong>📺 NuriWave YouTube</strong><p>Continue with NuriWave's longer Korea guidance and explanations.</p><a href="https://www.youtube.com/@nuriwavehq" target="_blank">Open YouTube →</a></div>
+          <div class="ownlink"><strong>📸 NuriWave Instagram</strong><p>Follow the page for updates, short-form Korea content and announcements.</p><a href="https://www.instagram.com/nuriwavehq/" target="_blank">Open Instagram →</a></div>
+        </div><div class="unicount" id="uniCount"></div><div class="uni-grid" id="uniGrid"></div>
+<div class="officialsource"><strong>Accuracy note:</strong> The current official GKS university pages are year-specific. A university appearing in a consolidated discovery list does not mean every department is eligible for every track. Always open the annual University Information file and the university's current admissions page.</div>
+</div></section>
+<section class="yellowsec"><div class="wrap"><div class="head"><div><div class="kicker">02 • Research each university properly</div><h2>A university profile should answer these questions.</h2></div><p>Don't stop at a name and logo.</p></div><div class="knowledge">
+<article><h3>Academic fit</h3><p>What department would you actually enter? What is the curriculum, research environment, teaching language, faculty profile and laboratory or project ecosystem?</p><div class="detailbox">NuriWave principle: compare the department first, then compare the institution.</div></article>
+<article><h3>Admissions</h3><p>What is the current application route, deadline, eligibility, document format, language requirement, interview policy and application fee? These belong to the university's current admissions page.</p><div class="detailbox">Never copy an old admissions date from a social post.</div></article>
+<article><h3>GKS relationship</h3><p>What GKS category and track is the university participating in? Is your exact department listed? What Type A/Type B or specialized-program rule applies?</p><div class="detailbox">The annual GKS University Information file is the key verification document.</div></article>
+<article><h3>Living environment</h3><p>Where is the campus? What is the surrounding neighborhood like? How long is the commute? What are dormitory options, food options and access to transport?</p><div class="detailbox">City can matter nearly as much as university name for everyday life.</div></article>
+</div></div></section>
+<section class="mintsec"><div class="wrap"><div class="head"><div><div class="kicker">03 • Comparison matrix</div><h2>Compare on what matters.</h2></div><p>Use this framework for any shortlist.</p></div><div class="tablewrap"><table class="compacttable"><thead><tr><th>Factor</th><th>Question</th><th>Evidence to collect</th><th>Why it matters</th></tr></thead><tbody>
+<tr><td>Department</td><td>Is it strong for my subject?</td><td>Curriculum, labs, faculty, research areas</td><td>Your actual academic experience is department-level.</td></tr>
+<tr><td>Language</td><td>How much Korean / English?</td><td>Course catalog, program page, language rules</td><td>Affects classroom readiness and daily administration.</td></tr>
+<tr><td>Cost</td><td>What is the total yearly cost?</td><td>Tuition, dorm, deposits, living budget</td><td>Tuition is only one part of the financial picture.</td></tr>
+<tr><td>Support</td><td>How strong is international support?</td><td>International office, orientation, housing support</td><td>Support can matter most in the first months.</td></tr>
+<tr><td>Location</td><td>Does the city fit me?</td><td>Commute, housing, lifestyle, transport</td><td>A good university can still be a poor personal fit.</td></tr>
+</tbody></table></div></div></section>
+<script>
+(function(){
+const data=[
+["Ajou University","Suwon","A","https://www.ajou.ac.kr/"],
+["Chung-Ang University","Seoul","A","https://neweng.cau.ac.kr/"],
+["Chungbuk National University","Cheongju","B","https://www.chungbuk.ac.kr/"],
+["Chungnam National University","Daejeon","B","https://plus.cnu.ac.kr/html/en/"],
+["Cheongju University","Cheongju","B","https://www.cju.ac.kr/"],
+["Chonnam National University","Gwangju","B","https://international.jnu.ac.kr/"],
+["Chosun University","Gwangju","B","https://www3.chosun.ac.kr/eng/"],
+["Daegu Catholic University","Gyeongsan","B","https://www.cu.ac.kr/eng/"],
+["Daegu University","Gyeongsan","B","https://en.daegu.ac.kr/"],
+["Daejeon University","Daejeon","B","https://www.dju.ac.kr/eng/"],
+["Dong-A University","Busan","B","https://www.donga.ac.kr/"],
+["Dongguk University","Seoul","A","https://www.dongguk.edu/eng/main"],
+["Dongseo University","Busan","B","https://en.dongseo.ac.kr/"],
+["Duksung Women's University","Seoul","A","https://www.duksung.ac.kr/eng/main.do"],
+["Ewha Womans University","Seoul","A","https://www.ewha.ac.kr/ewhaen/"],
+["Gyeongkuk National University","Sangju","B","https://www.gknu.ac.kr/"],
+["Gyeongsang National University","Jinju","B","https://www.gnu.ac.kr/eng/main.do"],
+["Hankuk University of Foreign Studies","Seoul","A","https://www.hufs.ac.kr/"],
+["Hannam University","Daejeon","B","https://www.hannam.ac.kr/"],
+["Hansung University","Seoul","A","https://hansung.ac.kr/sites/homepage/index.do"],
+["Hanyang University","Seoul","A","https://www.hanyang.ac.kr/web/eng/"],
+["Hongik University","Seoul","A","https://www.hongik.ac.kr/en/index.do"],
+["Hoseo University","Asan","B","https://www.hoseo.edu/"],
+["Incheon National University","Incheon","A","https://www.inu.ac.kr/"],
+["Inha University","Incheon","A","https://www.inha.ac.kr/"],
+["Inje University","Gimhae","B","https://www.inje.ac.kr/english/"],
+["Jeju National University","Jeju","B","https://www.jejunu.ac.kr/eng/"],
+["Jeonbuk National University","Jeonju","B","https://www.jbnu.ac.kr/eng/"],
+["Kangwon National University","Chuncheon","B","https://wwwk.kangwon.ac.kr/english/"],
+["KAIST","Daejeon","A","https://www.kaist.ac.kr/en/"],
+["Keimyung University","Daegu","B","https://www.kmu.ac.kr/uni/eng/main.jsp"],
+["Konkuk University","Seoul","A","https://www.konkuk.ac.kr/eng/"],
+["Kongju National University","Gongju","B","https://www.kongju.ac.kr/eng/"],
+["Konyang University","Nonsan / Daejeon","B","https://www.konyang.ac.kr/"],
+["Kookmin University","Seoul","A","https://english.kookmin.ac.kr/"],
+["Korea University","Seoul","A","https://www.korea.ac.kr/"],
+["Korea University (Sejong)","Sejong","B","https://sejong.korea.ac.kr/eng/"],
+["KOREATECH","Cheonan","B","https://www.koreatech.ac.kr/eng.do"],
+["Kunsan National University","Gunsan","B","https://www.kunsan.ac.kr/eng"],
+["Kyung Hee University","Seoul / Yongin","A","https://www.kyunghee.edu/eng/user/main/view.do"],
+["Kyungpook National University","Daegu","B","https://en.knu.ac.kr/"],
+["Kyungsung University","Busan","B","https://ks.ac.kr/eng/"],
+["Kyungwoon University","Gumi","B","https://www.ikw.ac.kr/"],
+["Myongji University","Seoul / Yongin","A","https://eng.mju.ac.kr/"],
+["Mokwon University","Daejeon","B","https://www.mokwon.ac.kr/en/"],
+["Pai Chai University","Daejeon","B","https://www.pcu.ac.kr/"],
+["Pohang University of Science and Technology (POSTECH)","Pohang","A","https://www.postech.ac.kr/eng/"],
+["Pukyong National University","Busan","B","https://www.pknu.ac.kr/eng/"],
+["Pusan National University","Busan","B","https://english.pusan.ac.kr/"],
+["Semyung University","Jecheon","B","https://www.semyung.ac.kr/eng/"],
+["Sejong University","Seoul","A","https://en.sejong.ac.kr/"],
+["Seokyeong University","Seoul","A","https://www.skuniv.ac.kr/"],
+["Seoul National University","Seoul","A","https://en.snu.ac.kr/"],
+["Seoul National University of Science and Technology (SeoulTech)","Seoul","A","https://en.seoultech.ac.kr/"],
+["Sogang University","Seoul","A","https://www.sogang.ac.kr/en/"],
+["Sookmyung Women's University","Seoul","A","https://e.sookmyung.ac.kr/"],
+["Soonchunhyang University","Asan","B","https://home.sch.ac.kr/eng/"],
+["Sunchon National University","Suncheon","B","https://www.scnu.ac.kr/"],
+["Sungkyunkwan University (SKKU)","Seoul / Suwon","A","https://www.skku.edu/eng/"],
+["Sungshin Women's University","Seoul","A","https://www.sungshin.ac.kr/main_eng/main.do"],
+["The Academy of Korean Studies","Seongnam","A","https://www.aks.ac.kr/intl/"],
+["Ulsan National Institute of Science and Technology (UNIST)","Ulsan","A","https://www.unist.ac.kr/eng/"],
+["University of Seoul","Seoul","A","https://english.uos.ac.kr/"],
+["University of Ulsan","Ulsan","B","https://www.ulsan.ac.kr/eng/"],
+["Yonsei University","Seoul","A","https://www.yonsei.ac.kr/en_sc/"],
+["Yeungnam University","Gyeongsan","B","https://www.yu.ac.kr/english/"],
+["GIST","Gwangju","A","https://www.gist.ac.kr/en/"],
+["DGIST","Daegu","A","https://www.dgist.ac.kr/en/"],
+["Hanyang University (ERICA)","Ansan","A","https://www.hanyang.ac.kr/web/eng/"],
+["KDI School of Public Policy and Management","Sejong","A","https://www.kdischool.ac.kr/"],
+["National Cancer Center Graduate School","Goyang","A","https://www.ncc.re.kr/english/main.do"],
+];
+const grid=document.getElementById('uniGrid'), q=document.getElementById('gksUniSearch'), city=document.getElementById('gksUniCity'), track=document.getElementById('gksUniTrack'), count=document.getElementById('uniCount');
+data.map(x=>x[2]==='A'?'A':'B'); [...new Set(data.map(x=>x[1]))].sort().forEach(c=>{const o=document.createElement('option');o.value=c;o.textContent=c;city.appendChild(o)});
+function render(){const query=(q.value||'').toLowerCase(), cv=city.value,tv=track.value;let n=0;grid.innerHTML='';data.forEach(([name,ct,tr,url])=>{const ok=(!query||(name+' '+ct).toLowerCase().includes(query))&&(cv==='all'||ct===cv)&&(tv==='all'||tr===tv);if(ok){n++;const d=document.createElement('article');d.className='uni';d.innerHTML='<div class="season">GKS Type '+tr+'</div><h3>'+name+'</h3><div class="uni-meta"><span>'+ct+'</span><span>Current-list research view</span></div><p>Use the official university website for current admissions, program, tuition, scholarship and international-student details.</p><a href="'+url+'" target="_blank">Official university website →</a>';grid.appendChild(d)}});count.textContent=n+' institutions shown in this discovery directory.'}
+[q,city,track].forEach(x=>x.addEventListener('input',render));document.getElementById('resetUni').onclick=()=>{q.value='';city.value='all';track.value='all';render()};render();
+})();
+</script>
+</section>
+<section class="view" id="korea">
+<div class="hero"><div class="hero-copy"><div class="eyebrow">Korea • Cities • Lifestyle</div><h1>Discover <em>your Korea.</em></h1><p>Compare Korea's major student destinations by geography, academic environment, pace and lifestyle. There is no universal “best city”; there is a city that fits you better.</p></div><div class="hero-img" style="background-image:url('https://images.unsplash.com/photo-1546874177-9e664107314e?auto=format&fit=crop&w=1700&q=85')"></div></div>
+<div class="page-marker">Korea Explorer · Cities and regions</div>
+<section class="pinksec"><div class="wrap"><div class="storygrid">
+<div class="storycard storybig"><span class="badge">City mindset</span><h3>Find the Korea that fits you.</h3><p>Capital energy, coastal life, research cities, heritage destinations and island landscapes can create completely different experiences.</p></div>
+<div class="storycard storysmall"><span class="badge">Practical lens</span><h3>Think beyond sightseeing.</h3><p>Compare commute, housing, university access, food, transport and the rhythm of everyday life.</p></div>
+</div></div></section>
+
+<section class="mix"><div class="wrap"><div class="head"><div><div class="kicker">01 • City stories</div><h2>One country, many rhythms.</h2></div><p>These descriptions are orientation guides, not live cost sheets.</p></div><div class="cards">
+<div class="card"><img src="https://images.unsplash.com/photo-1538485399081-7c897a0f5f0b?auto=format&fit=crop&w=1200&q=85"><div class="body"><h3>Seoul</h3><p>Seoul is Korea's capital and a major concentration of universities, technology, culture and public transport. The variety is enormous, but popular housing areas can be expensive and the pace can be fast. Students can find clubs, events, international communities and very different neighborhoods within the same metropolitan area.</p></div></div>
+<div class="card"><img src="https://images.unsplash.com/photo-1546874177-9e664107314e?auto=format&fit=crop&w=1200&q=85"><div class="body"><h3>Busan</h3><p>Busan combines metropolitan services with a strong coastal identity. Beaches, mountains, port districts, markets and film culture shape daily life. It can appeal to students who want a major city while living close to the sea and experiencing a different rhythm from Seoul.</p></div></div>
+<div class="card"><img src="https://images.unsplash.com/photo-1548013146-72479768bada?auto=format&fit=crop&w=1200&q=85"><div class="body"><h3>Jeju</h3><p>Jeju is a volcanic island where nature is part of everyday identity. Beaches, cliffs, forests and regional traditions make it different from mainland metropolitan life. Students should consider program availability and practical travel requirements as well as scenery.</p></div></div>
+<div class="card"><img src="https://images.unsplash.com/photo-1562774053-701939374585?auto=format&fit=crop&w=1200&q=85"><div class="body"><h3>Daejeon</h3><p>Daejeon is closely associated with science, research and technology, with universities and research institutions that can be attractive for STEM-focused students. The city can feel calmer than Seoul while remaining well connected.</p></div></div>
+<div class="card"><img src="https://images.unsplash.com/photo-1559526324-593bc073d938?auto=format&fit=crop&w=1200&q=85"><div class="body"><h3>Daegu</h3><p>Daegu is a large inland city with universities, food culture, fashion and textile heritage, and nearby mountains. It offers a substantial urban environment while feeling different from the capital.</p></div></div>
+<div class="card"><img src="https://images.unsplash.com/photo-1538485399081-7c897a0f5f0b?auto=format&fit=crop&w=1200&q=85"><div class="body"><h3>Gyeongju</h3><p>Gyeongju is especially important for understanding Korean history, with extensive heritage connected with the Silla period. It offers a very different rhythm from a modern megacity and shows another side of Korea.</p></div></div>
+</div></div></section>
+<section><div class="wrap"><div class="head"><div><div class="kicker">02 • Budget tool</div><h2>Estimate a monthly budget.</h2></div><p>Illustrative assumptions only — adjust them to your own situation.</p></div><div class="calc"><div class="formgrid">
+<div class="field"><label>Housing</label><select id="budgetHousing"><option value="450000">Dorm/shared — ₩450k</option><option value="750000">Studio — ₩750k</option><option value="1000000">Higher studio — ₩1m</option></select></div>
+<div class="field"><label>Food</label><select id="budgetFood"><option value="350000">Moderate — ₩350k</option><option value="500000">Comfortable — ₩500k</option><option value="650000">Higher — ₩650k</option></select></div>
+<div class="field"><label>Transport</label><select id="budgetTransport"><option value="80000">Basic — ₩80k</option><option value="120000">Frequent — ₩120k</option></select></div>
+<div class="field"><label>Personal</label><select id="budgetPersonal"><option value="180000">Basic — ₩180k</option><option value="300000">Moderate — ₩300k</option><option value="450000">Higher — ₩450k</option></select></div></div>
+<div class="result"><small>Illustrative monthly estimate</small><strong id="budgetTotal">₩0</strong><div class="breakdown"><div><b id="budgetH">₩0</b><small>Housing</small></div><div><b id="budgetF">₩0</b><small>Food</small></div><div><b id="budgetT">₩0</b><small>Transport</small></div><div><b>₩70,000</b><small>Phone / utilities</small></div><div><b id="budgetP">₩0</b><small>Personal</small></div></div></div></div></div></section>
+<section class="greensec"><div class="wrap"><div class="head"><div><div class="kicker">03 • Choose by you</div><h2>Ask the right question.</h2></div><p>“Which city is best?” is less useful than “Which city fits my goals?”</p></div><div class="paras"><article class="para"><h3>By field</h3><p>Look for the university and department environment that fits your academic subject and research goals.</p></article><article class="para"><h3>By pace</h3><p>Capital-city variety and regional-city rhythm can both be excellent. Choose the experience you actually want.</p></article><article class="para"><h3>By geography</h3><p>Beaches, mountains, heritage and island life can influence daily satisfaction just as much as campus quality.</p></article><article class="para"><h3>By budget</h3><p>Housing and lifestyle vary significantly by neighborhood. Build your plan around the place you may actually live.</p></article></div></div></section>
+</section>
+
+
+
+<section class="view" id="culture">
+<div class="hero"><div class="hero-copy"><div class="eyebrow">Culture • Language • Food • Heritage</div><h1>Understand Korea <em>with curiosity.</em></h1><p>Learn useful Korean, understand social context, explore food and heritage, and see how traditional and contemporary Korea sit side by side.</p><div class="btns"><a class="btn primary" href="https://www.iksi.or.kr/lms/main/main.do?lang=EN" target="_blank">Learn Korean</a><a class="btn secondary" href="https://english.visitkorea.or.kr/" target="_blank">VISITKOREA</a></div></div>
+<div class="page-marker">Culture Lab · Language, food and heritage</div>
+<section class="yellowsec"><div class="wrap"><div class="topic-band">
+<div class="topic-panel tp-c"><h3>Language</h3><p>Learn Hangul and practical Korean so signs, menus, conversations and everyday tasks become easier.</p></div>
+<div class="topic-panel tp-a"><h3>Culture</h3><p>Explore food, etiquette, holidays, social context, heritage and the relationship between traditional and modern Korea.</p></div>
+<div class="topic-panel tp-b"><h3>Everyday life</h3><p>Understand the little habits and systems that shape how people move, eat, study and share public spaces.</p></div>
+</div></div></section>
+<div class="hero-img" style="background-image:url('https://images.unsplash.com/photo-1583224964978-2257b960c3a3?auto=format&fit=crop&w=1700&q=85')"></div></div>
+<section class="pinksec"><div class="wrap"><div class="head"><div><div class="kicker">01 • Culture</div><h2>Look beyond stereotypes.</h2></div><p>Culture is lived, changing and regional.</p></div><div class="paras">
+<article class="para"><h3>Language</h3><p>Hangul is one of the most practical skills a newcomer can learn. Reading basic signs, menus and transport information becomes easier once you recognize the Korean alphabet.</p></article>
+<article class="para"><h3>Politeness</h3><p>Korean has speech levels that communicate social context. In unfamiliar or formal situations, polite language is a safe starting point, while relationships and settings influence how people speak.</p></article>
+<article class="para"><h3>Food</h3><p>Korean food includes rice, soups, noodles, grilled dishes, fermented foods, street food and regional specialties. Famous dishes such as bibimbap, kimchi and bulgogi are only an introduction.</p></article>
+<article class="para"><h3>Traditional + modern</h3><p>Palaces, hanok, crafts and traditional holidays exist alongside K-pop, gaming, design, cafés and contemporary art. Modern Korea continuously reinterprets older culture.</p></article>
+</div></div></section>
+<section><div class="wrap"><div class="head"><div><div class="kicker">02 • Korean starter</div><h2>Eight phrases worth knowing.</h2></div><p>Romanization is a pronunciation aid; learning Hangul is better for long-term progress.</p></div><div class="pills">
+<div class="pill"><b>안녕하세요</b><h3>Annyeonghaseyo</h3><p>Hello — a common polite greeting.</p></div><div class="pill"><b>감사합니다</b><h3>Gamsahamnida</h3><p>Thank you — polite and widely useful.</p></div><div class="pill"><b>죄송합니다</b><h3>Joesonghamnida</h3><p>I'm sorry — polite apology.</p></div><div class="pill"><b>괜찮아요</b><h3>Gwaenchanayo</h3><p>It's okay / I'm okay, depending on context.</p></div>
+<div class="pill"><b>얼마예요?</b><h3>Eolmayeyo?</h3><p>How much is it?</p></div><div class="pill"><b>어디예요?</b><h3>Eodiyeyo?</h3><p>Where is it?</p></div><div class="pill"><b>도와주세요</b><h3>Dowajuseyo</h3><p>Please help me.</p></div><div class="pill"><b>네 / 아니요</b><h3>Ne / Aniyo</h3><p>Yes / No.</p></div>
+</div></div></section>
+<section class="greensec"><div class="wrap"><div class="head"><div><div class="kicker">03 • Heritage</div><h2>Visit with context.</h2></div><p>Historic sites tell a story; they are more than backdrops for photos.</p></div><div class="feature"><img src="https://images.unsplash.com/photo-1538485399081-7c897a0f5f0b?auto=format&fit=crop&w=1400&q=85" alt="Seoul city"><div class="featurecopy"><p>Royal palaces and historic districts offer ways to understand Korean history and how older spaces coexist with the contemporary city. When you visit, learn why the place matters and follow its current visitor guidance.</p><p>Traditional neighborhoods are also living communities. Respect residents, follow posted rules, and avoid treating residential areas as if they were a theme park.</p><div class="btns"><a class="btn darkbtn" href="https://english.visitkorea.or.kr/" target="_blank">Explore VISITKOREA →</a><a class="btn" style="border:1px solid var(--line)" href="https://www.iksi.or.kr/lms/main/main.do?lang=EN" target="_blank">Online King Sejong Institute →</a></div></div></div></div></section>
+</section>
+
+
+
+<section class="view" id="festivals">
+<div class="hero"><div class="hero-copy"><div class="eyebrow">Festival Atlas • Deep Guides</div><h1>Click a festival. <em>Read the whole story.</em></h1><p>Every festival below opens a full guide: what it is, why it is celebrated, historical meaning, current timing, what happens, what you can experience, places to visit and practical planning.</p><div class="hero-statrow"><div class="hero-stat"><strong>9+</strong><span>deep festival guides</span></div><div class="hero-stat"><strong>2026</strong><span>current references</span></div><div class="hero-stat"><strong>100%</strong><span>clickable atlas</span></div></div>
+<div class="page-marker">Festival Atlas · Full festival guides</div>
+<div class="page-marker">Click any tile below — all festival guides load into the same detailed story panel.</div><section class="yellowsec"><div class="wrap"><div class="visual-steps">
+<div class="visual-step" style="--accent:var(--rose)"><div class="n">01</div><h3>What?</h3><p>What the festival is and what makes it distinctive.</p></div>
+<div class="visual-step" style="--accent:var(--yellow)"><div class="n">02</div><h3>Why?</h3><p>Historical, cultural, seasonal or community meaning.</p></div>
+<div class="visual-step" style="--accent:var(--mint)"><div class="n">03</div><h3>How?</h3><p>What people actually see, eat, do and experience.</p></div>
+<div class="visual-step" style="--accent:var(--lav)"><div class="n">04</div><h3>Where?</h3><p>Places, current dates, practical access and official references.</p></div>
+</div></div></section>
+</div><div class="hero-img" style="background-image:url('https://images.unsplash.com/photo-1537996194471-e657df975ab4?auto=format&fit=crop&w=1700&q=85')"></div></div>
+
+<section class="mix"><div class="wrap"><div class="head"><div><div class="kicker">01 • Festival atlas</div><h2>Choose your story.</h2></div><p>These are navigation tiles. One click opens the corresponding detailed article below without leaving the Festivals experience.</p></div>
+<div class="festcards">
+<a class="festcard spring" href="#festivals" data-fest-open="seollal"><div class="emoji">🌙</div><div><h3>Seollal</h3><p>Lunar New Year · family · traditions</p></div></a>
+<a class="festcard spring" href="#festivals" data-fest-open="jinhae"><div class="emoji">🌸</div><div><h3>Jinhae Gunhangje</h3><p>Cherry blossoms · naval heritage</p></div></a>
+<a class="festcard spring" href="#festivals" data-fest-open="yeongdong"><div class="emoji">🍓</div><div><h3>Regional Spring Festivals</h3><p>Flowers · food · local identity</p></div></a>
+<a class="festcard summer" href="#festivals" data-fest-open="boryeong"><div class="emoji">🌊</div><div><h3>Boryeong Mud</h3><p>Beach · mud · summer events</p></div></a>
+<a class="festcard summer" href="#festivals" data-fest-open="busansea"><div class="emoji">🏖️</div><div><h3>Busan Sea Festival</h3><p>Beach · fireworks · food</p></div></a>
+<a class="festcard autumn" href="#festivals" data-fest-open="suwon"><div class="emoji">🏯</div><div><h3>Suwon Hwaseong</h3><p>Fortress · Joseon heritage</p></div></a>
+<a class="festcard autumn" href="#festivals" data-fest-open="andong"><div class="emoji">🎭</div><div><h3>Andong Maskdance</h3><p>Mask dance · heritage</p></div></a>
+<a class="festcard autumn" href="#festivals" data-fest-open="jinju"><div class="emoji">🏮</div><div><h3>Jinju Lantern</h3><p>River · lanterns · nightscape</p></div></a>
+<a class="festcard autumn" href="#festivals" data-fest-open="biff"><div class="emoji">🎬</div><div><h3>Busan International Film</h3><p>Cinema · global culture</p></div></a>
+<a class="festcard winter" href="#festivals" data-fest-open="winter"><div class="emoji">❄️</div><div><h3>Winter Festivals</h3><p>Snow · ice · seasonal culture</p></div></a>
+</div></div></section>
+
+<section class="yellowsec"><div class="wrap"><div class="head"><div><div class="kicker">02 • Deep guide</div><h2 id="festivalGuideTitle">Seollal — Korean Lunar New Year</h2></div><p id="festivalGuideIntro">Select a festival above. The guide below changes to that festival and stays on this page.</p></div>
+
+<div class="festivaldetail" id="festivalGuide">
+<div class="festinfo"><div class="season" id="fgSeason">Traditional holiday • Lunar calendar</div><h3 id="fgName">설날 • Seollal</h3><p id="fgWhat"><strong>What is it?</strong> Seollal is Korea’s Lunar New Year, a major traditional holiday associated with family gatherings, respect for elders, ancestral remembrance, special foods and hopes for health and prosperity.</p><p id="fgWhy"><strong>Why is it celebrated?</strong> It marks the start of a new lunar year and connects ideas of renewal, family, gratitude, respect and good fortune.</p><p id="fgHistory"><strong>Historical/cultural background.</strong> Traditional practices include sebae (New Year bowing), tteokguk, family gatherings and traditional games, with regional and family differences in how they are observed.</p></div>
+<div class="festinfo"><div class="season" id="fgCurrent">Current timing</div><h3 id="fgWhen">2026 reference</h3><p id="fgWhenText"><strong>When?</strong> Seollal Day in 2026 fell on February 17. Holiday dates follow the lunar calendar and therefore change each year.</p><p id="fgDo"><strong>What can you do?</strong> Visit official cultural programs, palace sites, hanok villages and museums where holiday activities are announced.</p><p id="fgPlaces"><strong>Where?</strong> In Seoul, 2026 cultural programs included Namsangol Hanok Village, Unhyeongung and major royal heritage sites.</p><div class="officialsource" id="fgSource"><strong>Official reference:</strong> <a href="https://www.korea.net/NewsFocus/Culture/view?articleId=287539" target="_blank">Korea.net</a></div></div>
+</div>
+<div class="festfacts" id="fgFacts"><div class="ffact"><strong>Meaning</strong><span>Renewal, family and good fortune.</span></div><div class="ffact"><strong>Typical experiences</strong><span>Sebae, food, games, cultural programs.</span></div><div class="ffact"><strong>Planning</strong><span>Expect holiday travel and changed business schedules.</span></div><div class="ffact"><strong>Source</strong><span>Current official cultural pages.</span></div></div>
+</div></section>
+
+<section class="greensec"><div class="wrap"><div class="head"><div><div class="kicker">03 • Why this matters</div><h2>One festival = one complete guide.</h2></div><p>NuriWave should answer the visitor's questions before they ever need to leave the page.</p></div><div class="knowledge">
+<article><h3>Meaning</h3><p>The visitor should understand why the event exists instead of only seeing a date and a photo.</p></article>
+<article><h3>Experience</h3><p>The page explains what visitors can actually see, do, eat, photograph, learn or participate in.</p></article>
+<article><h3>Place</h3><p>Important locations, neighborhoods, heritage sites and regional context are part of the story.</p></article>
+<article><h3>Planning</h3><p>Current dates, transport, weather, crowds, access and official links are treated as practical information.</p></article>
+</div></div></section>
+
+<script>
+(function(){
+const data={
+seollal:{
+season:'Traditional holiday • Lunar calendar',name:'설날 • Seollal',title:'Seollal — Korean Lunar New Year',
+what:'Seollal is Korea’s Lunar New Year, a major traditional holiday associated with family gatherings, respect for elders, ancestral remembrance, special foods and hopes for health and prosperity.',
+why:'It marks the start of a new lunar year and connects ideas of renewal, family, gratitude, respect and good fortune.',
+history:'Traditional practices include sebae (New Year bowing), tteokguk, family gatherings and traditional games. Customs can differ between families and regions.',
+when:'2026 reference',whenText:'Seollal Day in 2026 fell on February 17. Holiday dates follow the lunar calendar and change each year.',
+do:'Official cultural programs can include traditional games, performances, craft activities, hanbok experiences and special heritage-site programs.',
+places:'In Seoul, 2026 cultural programs included Namsangol Hanok Village, Unhyeongung and major royal heritage sites.',
+source:'https://www.korea.net/NewsFocus/Culture/view?articleId=287539',sourceName:'Korea.net'
+},
+jinhae:{
+season:'Spring • Cherry blossoms + naval heritage',name:'진해군항제 • Jinhae Gunhangje Festival',title:'Jinhae Gunhangje — Spring, Memory and Naval Heritage',
+what:'Jinhae Gunhangje is a major Korean spring festival centered on cherry blossoms and the city’s naval heritage.',
+why:'The festival began in 1952 as a memorial ceremony for Admiral Yi Sun-sin and later developed into a large cultural event combining remembrance, naval history and spring scenery.',
+history:'Its growth made Jinhae one of Korea’s best-known cherry-blossom destinations, while the memorial and naval elements remain part of its identity.',
+when:'2026: Mar 27 – Apr 5',whenText:'The current VISITKOREA listing gives March 27–April 5, 2026.',
+do:'Visitors can experience opening and memorial events, the Victory Parade, military band and honor-guard performances, music events, dance programs and cherry-blossom viewing.',
+places:'Major areas include Jungwon Rotary, Bugwon Rotary, Yeojwacheon Stream and Gyeonghwa Station; official listings also describe special access opportunities to naval sites when available.',
+source:'https://english.visitkorea.or.kr/svc/whereToGo/locIntrdn/rgnContentsView.do?vcontsId=124524',sourceName:'VISITKOREA'
+},
+yeongdong:{
+season:'Spring • Regional culture',name:'Regional spring festivals',title:'Regional Spring Festivals — Flowers, Food and Local Identity',
+what:'Spring in Korea is not a single festival. Cities and counties build local events around blossoms, food, agriculture, heritage and outdoor life.',
+why:'Regional spring festivals turn seasonal changes into community celebrations and tourism opportunities, making them a useful way to experience parts of Korea beyond the capital.',
+history:'Many local festivals grow from older community events, regional products, landscapes or cultural traditions and are updated with modern performances and visitor programs.',
+when:'Usually March–May',whenText:'Exact timing varies by region, weather and the local organizer.',
+do:'Depending on the location, visitors may see blossom roads, food stalls, local performances, markets, craft activities, photo areas and nature experiences.',
+places:'Look beyond Seoul toward Gyeongsangnam-do, Jeollanam-do, Chungcheong regions and other local destinations listed by VISITKOREA.',
+source:'https://english.visitkorea.or.kr/svc/sp/festivals',sourceName:'VISITKOREA Festivals'
+},
+boryeong:{
+season:'Summer • Beach + participatory event',name:'보령머드축제 • Boryeong Mud Festival',title:'Boryeong Mud Festival — Beach, Mud and Summer',
+what:'A major summer event at Daecheon Beach built around Boryeong’s famous mud and a highly participatory festival format.',
+why:'The festival developed from efforts to promote Boryeong’s local mud resource and has grown into an international summer tourism event.',
+history:'What began as local promotion became a recognizable festival blending natural resources, beach tourism, entertainment and participatory activities.',
+when:'2026: Jul 24 – Aug 9',whenText:'The current VISITKOREA guide lists July 24–August 9, 2026.',
+do:'Programs include mud experience zones, slides, obstacle-style games, performances, music programs, buskers and family-friendly activities.',
+places:'Daecheon Beach and the festival area in Boryeong, Chungcheongnam-do.',
+source:'https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=201509',sourceName:'VISITKOREA'
+},
+busansea:{
+season:'Summer • Coast + performances',name:'부산바다축제 • Busan Sea Festival',title:'Busan Sea Festival — A City Celebrating Its Coast',
+what:'A signature Busan summer event centered on beaches, coastal scenery, performances, food and evening events.',
+why:'Busan’s identity is deeply connected to the sea, and the festival turns that relationship into a public cultural event.',
+history:'It developed as part of Busan’s summer cultural and tourism programming, using the city’s beaches as its natural stage.',
+when:'2026: Aug 7 – Aug 13',whenText:'The current VISITKOREA listing gives August 7–13, 2026.',
+do:'The 2026 listing highlights Dadaepo Beach, fireworks, food-stall experiences and other summer programs.',
+places:'Dadaepo Beach, Saha-gu, Busan.',
+source:'https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=102631',sourceName:'VISITKOREA'
+},
+suwon:{
+season:'Autumn • Joseon heritage',name:'수원화성문화제 • Suwon Hwaseong Festival',title:'Suwon Hwaseong Festival — Royal Procession and Fortress History',
+what:'A major cultural tourism festival around Hwaseong Fortress in Suwon.',
+why:'It highlights the historical legacy of King Jeongjo and the fortress’s association with his royal procession and vision during the Joseon period.',
+history:'The festival uses the actual heritage environment as part of the storytelling, turning historical memory into performances and public cultural experiences.',
+when:'2026: Oct 4 – Oct 11',whenText:'The current VISITKOREA autumn festival listing gives October 4–11, 2026.',
+do:'The signature highlight is a large royal-procession reenactment, alongside heritage performances and special nighttime experiences.',
+places:'Around Hwaseong Fortress in Suwon, Gyeonggi-do.',
+source:'https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=1593098',sourceName:'VISITKOREA'
+},
+andong:{
+season:'Autumn • Mask dance + heritage',name:'안동국제탈춤페스티벌 • Andong Maskdance Festival',title:'Andong Maskdance Festival — Traditional Performance as Living Culture',
+what:'A major Andong cultural event centered on mask-dance traditions and international cultural exchange.',
+why:'Andong’s strong heritage identity gives mask dance a natural home, while the festival also places Korean tradition alongside international performance traditions.',
+history:'The festival has developed into a large cultural event where traditional forms are staged for contemporary audiences and international visitors.',
+when:'2026: Sep 24 – Oct 4',whenText:'The current VISITKOREA autumn festival listing gives September 24–October 4, 2026.',
+do:'Visitors can see mask-dance performances, parades, traditional and contemporary performances, food and other cultural attractions.',
+places:'Andong, Gyeongsangbuk-do.',
+source:'https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=1593098',sourceName:'VISITKOREA'
+},
+jinju:{
+season:'Autumn • Lanterns + river nightscape',name:'진주남강유등축제 • Jinju Namgang Yudeung Festival',title:'Jinju Lantern Festival — River, Light and Historical Memory',
+what:'Jinju’s signature lantern festival transforms the Namgang River area with illuminated night scenery.',
+why:'The lantern tradition is connected with Jinju’s historical memory and the river environment, creating a distinctive cultural nightscape.',
+history:'Lantern traditions have developed into a modern city festival combining remembrance, public art, river scenery and evening events.',
+when:'2026: Oct 3 – Oct 18',whenText:'The current VISITKOREA autumn festival listing gives October 3–18, 2026.',
+do:'Evening viewing is the natural highlight, with illuminated lantern environments and cultural programs around the river.',
+places:'Namgang River and central Jinju, Gyeongsangnam-do.',
+source:'https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=1593098',sourceName:'VISITKOREA'
+},
+biff:{
+season:'Autumn • Cinema + global culture',name:'부산국제영화제 • Busan International Film Festival',title:'Busan International Film Festival — Cinema in a Global City',
+what:'A major international film festival in Busan connecting Korean cinema, Asian cinema and international filmmaking.',
+why:'It reinforces Busan’s identity as a major cultural city and gives audiences access to films and filmmakers beyond mainstream releases.',
+history:'The festival has grown into a major international cinema platform with public screenings and industry programs.',
+when:'2026: Oct 6 – Oct 15',whenText:'The official BIFF website currently gives October 6–15, 2026.',
+do:'Screenings, special programs, talks and industry events form the core experience; the detailed schedule is released by the festival.',
+places:'Busan’s designated festival cinema venues.',
+source:'https://www.biff.kr/',sourceName:'Busan International Film Festival'
+},
+winter:{
+season:'Winter • Snow + ice + seasonal culture',name:'Korean winter festivals',title:'Winter Festivals — Snow, Ice, Lights and Cold-Weather Culture',
+what:'Winter in Korea produces a distinct festival culture built around snow, ice, lights, winter scenery and Lunar New Year traditions.',
+why:'Instead of simply avoiding winter, regional communities use the cold season as a cultural and tourism opportunity.',
+history:'Many winter events have grown around frozen rivers, mountain resorts, local foods, fishing and seasonal landscapes.',
+when:'Dec–Feb, depending on event',whenText:'For example, the 2025–26 winter season included festivals in Pyeongchang and Hwacheon; exact dates vary each season.',
+do:'Depending on the location, activities can include ice fishing, snow experiences, sledding, ice sculpture, lights and seasonal food.',
+places:'Examples include Pyeongchang, Hwacheon and other northern or mountain regions listed by VISITKOREA.',
+source:'https://english.visitkorea.or.kr/svc/contents/contentsView.do?menuSn=219&vcontsId=250750',sourceName:'VISITKOREA'
+}
+};
+function setFest(key){
+  const d=data[key]||data.seollal;
+  document.querySelectorAll('[data-fest-open]').forEach(x=>x.classList.toggle('active',x.dataset.festOpen===key));
+  for(const id of ['fgSeason','fgName','fgCurrent','fgWhen','festivalGuideTitle']){}
+  document.getElementById('fgSeason').textContent=d.season;
+  document.getElementById('fgName').textContent=d.name;
+  document.getElementById('festivalGuideTitle').textContent=d.title;
+  document.getElementById('fgWhat').innerHTML='<strong>What is it?</strong> '+d.what;
+  document.getElementById('fgWhy').innerHTML='<strong>Why is it celebrated?</strong> '+d.why;
+  document.getElementById('fgHistory').innerHTML='<strong>Historical/cultural background.</strong> '+d.history;
+  document.getElementById('fgWhen').textContent=d.when;
+  document.getElementById('fgWhenText').innerHTML='<strong>When?</strong> '+d.whenText;
+  document.getElementById('fgDo').innerHTML='<strong>What can you do?</strong> '+d.do;
+  document.getElementById('fgPlaces').innerHTML='<strong>Where?</strong> '+d.places;
+  document.getElementById('fgSource').innerHTML='<strong>Official reference:</strong> <a href="'+d.source+'" target="_blank">'+d.sourceName+'</a>';
+}
+document.querySelectorAll('[data-fest-open]').forEach(x=>x.addEventListener('click',e=>{e.preventDefault();setFest(x.dataset.festOpen);document.getElementById('festivalGuide').scrollIntoView({behavior:'smooth',block:'start'})}));
+setFest('seollal');
+})();
+</script>
+</section>
+<section class="view" id="life">
+<div class="hero"><div class="hero-copy"><div class="eyebrow">Student Life • Housing • Transport</div><h1>Make everyday Korea <em>easier.</em></h1><p>Prepare for the parts of international student life that happen outside the classroom: housing, transport, money, health insurance, immigration, phone connectivity and campus community.</p></div><div class="hero-img" style="background-image:url('https://images.unsplash.com/photo-1559526324-593bc073d938?auto=format&fit=crop&w=1700&q=85')"></div></div>
+<div class="page-marker">Student Life · Practical Korea</div>
+<section class="greensec"><div class="wrap"><div class="topic-band">
+<div class="topic-panel tp-b"><h3>Settle in</h3><p>Understand housing, transport, phone setup, banking, waste rules and the first-week systems around you.</p></div>
+<div class="topic-panel tp-c"><h3>Stay compliant</h3><p>Use current official information for immigration, insurance and part-time work rather than relying on old experiences.</p></div>
+<div class="topic-panel tp-a"><h3>Build a life</h3><p>Campus communities, Korean practice, food, routine and local exploration matter just as much as the timetable.</p></div>
+</div></div></section>
+
+<section class="greensec"><div class="wrap"><div class="head"><div><div class="kicker">01 • Everyday life</div><h2>Prepare for ordinary days.</h2></div><p>Small practical decisions can have the biggest effect on your first month.</p></div><div class="paras">
+<article class="para"><h3>Housing</h3><p>International students may encounter dormitories, studios, shared homes or private rooms. Compare deposits, rent, utilities, distance to campus, rules and contract conditions before choosing.</p></article>
+<article class="para"><h3>Transport</h3><p>Subways, buses and regional rail are central to life in many Korean cities. Learn your route to campus, understand the local transport-card system and keep a backup route.</p></article>
+<article class="para"><h3>Money</h3><p>Build a real budget around housing, food, transport, phone, insurance, study materials and setup costs. Costs can vary substantially by city and neighborhood.</p></article>
+<article class="para"><h3>Connectivity</h3><p>Plan your phone/eSIM, university email, important addresses and emergency contacts early. Keep your important documents secure in both physical and digital form.</p></article>
+</div></div></section>
+<section><div class="wrap"><div class="head"><div><div class="kicker">02 • Official systems</div><h2>Know where to verify.</h2></div><p>Use official sources for legal status and health coverage questions.</p></div><div class="paras">
+<article class="para"><h3>Health insurance</h3><p>International students can fall under Korea's National Health Insurance system according to the applicable rules. Confirm your current status and contributions through NHIS and your university.</p><a class="arrow" href="https://www.nhis.or.kr/english/index.do" target="_blank">Official NHIS →</a></article>
+<article class="para"><h3>Immigration</h3><p>Visa and residence procedures are governed by current immigration rules. Use HiKorea and your university instead of relying on someone's old experience.</p><a class="arrow" href="https://www.hikorea.go.kr/" target="_blank">Official HiKorea →</a></article>
+<article class="para"><h3>Part-time work</h3><p>A student visa does not automatically mean unlimited employment. Permission, language conditions, hours and eligible activities can depend on your current status and rules.</p><a class="arrow" href="https://studyinkorea.go.kr/ko/work/aboutForeignerEmploymentSystem.do" target="_blank">Study in Korea work guide →</a></article>
+<article class="para"><h3>Campus community</h3><p>International offices, clubs, language exchanges and department communities can help you build a routine. One good community can be more useful than trying to join everything.</p></article>
+</div></div></section>
+<section class="pinksec"><div class="wrap"><div class="head"><div><div class="kicker">03 • First 30 days</div><h2>Use a saved checklist.</h2></div><p>Checked items stay saved in this browser.</p></div><div class="checks" data-check-group="life">
+<label class="check"><input type="checkbox"><span>Confirm accommodation</span></label><label class="check"><input type="checkbox"><span>Save campus and emergency contacts</span></label><label class="check"><input type="checkbox"><span>Complete registration tasks</span></label><label class="check"><input type="checkbox"><span>Learn the route to campus</span></label><label class="check"><input type="checkbox"><span>Set up phone / eSIM</span></label><label class="check"><input type="checkbox"><span>Check health-insurance status</span></label><label class="check"><input type="checkbox"><span>Understand payment / banking basics</span></label><label class="check"><input type="checkbox"><span>Find a grocery / convenience store</span></label><label class="check"><input type="checkbox"><span>Save important Korean addresses</span></label><label class="check"><input type="checkbox"><span>Join one campus or language community</span></label><label class="check"><input type="checkbox"><span>Locate the nearest hospital / pharmacy</span></label><label class="check"><input type="checkbox"><span>Review residence / recycling rules</span></label>
+</div></div></section>
+</section>
+
+
+<section class="view" id="tools">
+<div class="hero"><div class="hero-copy"><div class="eyebrow">NuriWave Toolkit • Interactive</div><h1>Tools that make Korea <em>easier to understand.</em></h1><p>Use the built-in planners for GKS preparation, university research, city exploration and everyday Korea planning. These tools provide guidance, not official decisions.</p><div class="btns"><a class="btn primary" href="#gks">GKS Guide</a><a class="btn secondary" href="#universities">University Finder</a></div></div><div class="hero-img" style="background-image:url('https://images.unsplash.com/photo-1538485399081-7c897a0f5f0b?auto=format&fit=crop&w=1700&q=85')"></div></div>
+
+<section class="toolshero"><div class="wrap"><div class="head"><div><div class="kicker">01 • GKS profile checker</div><h2>Get a preliminary profile view.</h2></div><p>This is not an eligibility decision. It highlights items you should verify in the current GKS guideline.</p></div>
+<div class="formpanel"><div class="formrow">
+<div class="formfield"><label>Study level</label><select id="gksLevel"><option>Undergraduate</option><option>Graduate</option></select></div>
+<div class="formfield"><label>Age / age range</label><select id="gksAge"><option value="ok">Within current program range</option><option value="check">Need to verify current age rule</option></select></div>
+<div class="formfield"><label>Academic profile</label><select id="gksAcademics"><option value="strong">Meets / exceeds the relevant academic threshold</option><option value="check">Need to compare with current guideline</option></select></div>
+<div class="formfield"><label>Language</label><select id="gksLang"><option value="prepared">Have a relevant Korean/English qualification or plan</option><option value="check">Need to verify requirement</option></select></div>
+</div><div class="output"><small>Preliminary NuriWave profile</small><div class="score" id="gksScore">Review profile</div><div class="reasons" id="gksReasons"></div></div></div>
+<div class="sourcestrip"><span class="sourcebadge">OFFICIAL SOURCE</span> Final eligibility, age, nationality, academic, language and document rules must be checked against the current annual <a class="arrow" href="https://www.studyinkorea.go.kr/en/plan/gksNotice.do" target="_blank">Study in Korea GKS notice →</a></div>
+</div></section>
+
+<section><div class="wrap"><div class="head"><div><div class="kicker">02 • GKS preparation</div><h2>Your checklist, with progress.</h2></div><p>Tick items and NuriWave remembers them in this browser.</p></div><div class="progressbox"><div class="checks" data-check-group="tool_gks">
+<label class="check"><input type="checkbox"><span>Verify the correct GKS category and year</span></label><label class="check"><input type="checkbox"><span>Verify nationality and age rules</span></label><label class="check"><input type="checkbox"><span>Check the eligible university / field list</span></label><label class="check"><input type="checkbox"><span>Collect academic and graduation documents</span></label><label class="check"><input type="checkbox"><span>Check recommendation requirements</span></label><label class="check"><input type="checkbox"><span>Prepare personal statement / study plan</span></label><label class="check"><input type="checkbox"><span>Check language requirements</span></label><label class="check"><input type="checkbox"><span>Check translation / authentication rules</span></label><label class="check"><input type="checkbox"><span>Record official deadline and submission route</span></label><label class="check"><input type="checkbox"><span>Re-read current guideline before submitting</span></label></div><div class="progressline"><div class="progressfill" id="gksFill"></div></div><div class="progtext"><span id="gksProg">0% complete</span><span>Saved locally</span></div></div></div></section>
+
+<section class="navysec"><div class="wrap"><div class="head"><div><div class="kicker">03 • City explorer</div><h2>Tap a city.</h2></div><p>A lightweight interactive map-like explorer for quick orientation.</p></div><div class="mapwrap"><div class="mapgrid" id="cityMap">
+<button class="mapcity active" data-city="Seoul">Seoul</button><button class="mapcity" data-city="Busan">Busan</button><button class="mapcity" data-city="Daejeon">Daejeon</button><button class="mapcity" data-city="Daegu">Daegu</button><button class="mapcity" data-city="Incheon">Incheon</button><button class="mapcity" data-city="Suwon">Suwon</button><button class="mapcity" data-city="Gyeongju">Gyeongju</button><button class="mapcity" data-city="Jeju">Jeju</button><button class="mapcity" data-city="Gwangju">Gwangju</button><button class="mapcity" data-city="Jeonju">Jeonju</button></div><div class="citydetail" id="cityDetail"><h3>Seoul</h3><p>Capital city with a very large university ecosystem, extensive public transport, major cultural institutions and a fast urban rhythm. Investigate the specific campus neighborhood before judging cost or lifestyle.</p></div></div></div></section>
+
+<section class="mix"><div class="wrap"><div class="head"><div><div class="kicker">04 • Planning tools</div><h2>Small tools, real usefulness.</h2></div><p>These calculations are planning aids; they do not replace official university, government or organizer information.</p></div><div class="toolgrid">
+<div class="toolcard"><div class="emoji">🧮</div><h3>Cost planner</h3><p>Jump to the Korea section for an editable monthly budget using illustrative housing, food, transport and personal-spending assumptions.</p><div class="miniresult">Open Korea budget → <a class="arrow" href="#korea">Go</a></div></div>
+<div class="toolcard"><div class="emoji">🏫</div><h3>University search</h3><p>Search the starter directory by university, city or field, then use the official university site to verify current admissions data.</p><div class="miniresult">Open University Finder → <a class="arrow" href="#universities">Go</a></div></div>
+<div class="toolcard"><div class="emoji">🎉</div><h3>Festival filter</h3><p>Use the Festivals view to filter events by season and open official tourism or organizer information for the current edition.</p><div class="miniresult">Open Festival Explorer → <a class="arrow" href="#festivals">Go</a></div></div>
+</div></div></section>
+</section>
+
+<section class="view" id="current">
+<div class="hero"><div class="hero-copy"><div class="eyebrow">NuriWave • Current information</div><h1>What is changing <em>right now?</em></h1><p>A source-first area for time-sensitive Korea information. For this build, the page highlights 2026 GKS and festival information that is explicitly published by official Korean sources.</p><div class="btns"><a class="btn primary" href="https://www.studyinkorea.go.kr/ko/plan/gksNoticeRead.do?bbsId=BBSMSTR_000000000461&nttId=4385" target="_blank">2026 GKS-U notice</a><a class="btn secondary" href="https://www.studyinkorea.go.kr/en/plan/gksNoticeRead.do?bbsId=BBSMSTR_000000000461&nttId=4420" target="_blank">2026 GKS-G notice</a></div></div>
+<div class="page-marker">Current · What may have changed</div>
+<section class="yellowsec"><div class="wrap"><div class="head"><div><div class="kicker">How to read this section</div><h2>Fresh facts sit beside evergreen guides.</h2></div><p>GKS notices, university participation and event dates can change. Current items are therefore shown with dates and official source links.</p></div><div class="factpulse"><div class="pulse"><div class="num">2026</div><small>Current-year GKS and festival reference layer.</small></div><div class="pulse"><div class="num">✓</div><small>Official-source links are provided for final verification.</small></div><div class="pulse"><div class="num">↻</div><small>Re-check time-sensitive details before applying or travelling.</small></div><div class="pulse"><div class="num">N</div><small>NuriWave explains the context around the official fact.</small></div></div></div></section>
+<div class="hero-img" style="background-image:url('https://images.unsplash.com/photo-1538485399081-7c897a0f5f0b?auto=format&fit=crop&w=1700&q=85')"></div></div>
+<section class="mix"><div class="wrap"><div class="head"><div><div class="kicker">Verified examples • 01 Sep 2026</div><h2>Current, but still verify.</h2></div><p>The dates and figures below are tied to official pages checked for this build.</p></div><div class="resources">
+<div class="resource"><h3>2026 GKS-U</h3><p>Official undergraduate guideline published by the GKS Center. It directs applicants to the attached University Information files for the eligible universities and departments.</p><a href="https://www.studyinkorea.go.kr/ko/plan/gksNoticeRead.do?bbsId=BBSMSTR_000000000461&nttId=4385" target="_blank">Open official notice →</a></div>
+<div class="resource"><h3>2026 GKS-G</h3><p>The current graduate guideline was revised on February 20, 2026, and the official notice provides the updated guideline and university-information files.</p><a href="https://www.studyinkorea.go.kr/en/plan/gksNoticeRead.do?bbsId=BBSMSTR_000000000461&nttId=4420" target="_blank">Open official notice →</a></div>
+<div class="resource"><h3>2026 university list changes</h3><p>Study in Korea published a specific notice about changes to available GKS-G universities and directed applicants to the revised February 20 guideline.</p><a href="https://www.studyinkorea.go.kr/ko/plan/gksNoticeRead.do?bbsId=BBSMSTR_000000000461&nttId=4422" target="_blank">Read the notice →</a></div>
+<div class="resource"><h3>2026 Seollal</h3><p>Korea.net published current information about Seollal programs, including palace and heritage-site events in Seoul.</p><a href="https://www.korea.net/NewsFocus/Culture/view?articleId=287421" target="_blank">Read current article →</a></div>
+<div class="resource"><h3>2026 Seoul Seollal events</h3><p>Current Seoul programs included Namsangol Hanok Village, Unhyeongung and museum activities during the holiday period.</p><a href="https://www.korea.net/NewsFocus/Culture/view?articleId=287539" target="_blank">Read current article →</a></div>
+<div class="resource"><h3>Official Study in Korea scholarship page</h3><p>The current scholarship page gives the broad GKS framework, quotas, types and application-method summaries.</p><a href="https://www.studyinkorea.go.kr/ko/plan/scholarship.do" target="_blank">Open scholarship page →</a></div>
+</div></div></section>
+</section>
+
+<section class="mix"><div class="wrap"><div class="head"><div><div class="kicker">04 • Everyday knowledge</div><h2>Things newcomers often don't know.</h2></div><p>These are the small systems that are easy to underestimate before arrival.</p></div><div class="knowledge">
+<article><h3>Recycling & waste</h3><p>Korea has detailed waste-sorting systems and rules that can vary by local government and building. Learn the rules where you live rather than assuming one national household routine applies everywhere.</p></article>
+<article><h3>Convenience stores</h3><p>Convenience stores are useful for quick meals, drinks, small household supplies, top-ups and everyday services. They are part of daily city life, not only tourist stops.</p></article>
+<article><h3>Delivery culture</h3><p>Food and parcel delivery are deeply integrated into everyday life. Korean addresses can be structured differently from what newcomers expect, so saving your residence address in Korean can help.</p></article>
+<article><h3>Campus communication</h3><p>University portals, email, notice boards and student groups can carry different pieces of information. Check your official university channels regularly.</p></article>
+</div></div></section>
+
+<section class="yellowsec"><div class="wrap"><div class="head"><div><div class="kicker">05 • NuriWave research rules</div><h2>How the tools should be used.</h2></div><p>Tools speed up discovery; official sources settle the final decision.</p></div><div class="facts">
+<div class="factcard"><strong>GKS</strong><span>Current annual guideline → University Information file → embassy/university instructions.</span></div>
+<div class="factcard"><strong>University</strong><span>Official admissions page → department page → current international office instructions.</span></div>
+<div class="factcard"><strong>Immigration</strong><span>HiKorea / immigration authority → university international office.</span></div>
+</div></div></section>
+
+<section class="view" id="resources">
+<div class="hero"><div class="hero-copy"><div class="eyebrow">NuriWave • Resources • Official verification</div><h1>Start with <em>NuriWave.</em> Verify with the source.</h1><p>This page now puts NuriWave's own channels and help links first. External government and university websites are grouped underneath as verification resources.</p><div class="btns"><a class="btn primary" href="https://forms.gle/BQpPY83xHupGYSqe8" target="_blank">GKS Query Form</a><a class="btn secondary" href="https://www.instagram.com/nuriwavehq/" target="_blank">Instagram</a></div></div>
+<div class="page-marker">Resources · NuriWave first</div>
+<section class="mix"><div class="wrap"><div class="ownbar">
+<div class="ownlink"><strong>🏆 NuriWave GKS Form</strong><p>Your dedicated route for GKS questions.</p><a href="https://forms.gle/BQpPY83xHupGYSqe8" target="_blank">Open my form →</a></div>
+<div class="ownlink"><strong>📸 @nuriwavehq</strong><p>Short-form Korea content and updates.</p><a href="https://www.instagram.com/nuriwavehq/" target="_blank">Instagram →</a></div>
+<div class="ownlink"><strong>📺 @nuriwavehq</strong><p>Longer Korea guidance and videos.</p><a href="https://www.youtube.com/@nuriwavehq" target="_blank">YouTube →</a></div>
+<div class="ownlink"><strong>✉️ Promotions</strong><p>Promotion and collaboration enquiries.</p><a href="mailto:nuriwavehq@gmail.com">Email →</a></div>
+</div></div></section>
+<div class="hero-img" style="background-image:url('https://images.unsplash.com/photo-1538485399081-7c897a0f5f0b?auto=format&fit=crop&w=1700&q=85')"></div></div>
+
+<section class="yellowsec"><div class="wrap"><div class="head"><div><div class="kicker">NuriWave navigation & themes</div><h2>Make the site yours.</h2></div><p>Choose a visual theme from the 🎨 Theme control. Your choice is remembered in this browser. The content, official-source hierarchy and NuriWave links stay the same.</p></div><div class="facts"><div class="factcard"><strong>Original</strong><span>Balanced multi-colour editorial theme.</span></div><div class="factcard"><strong>Sunset</strong><span>Warm rose, coral and gold.</span></div><div class="factcard"><strong>Neon</strong><span>Electric lime, aqua and bright accents.</span></div><div class="factcard"><strong>Forest</strong><span>Green-led calm theme.</span></div><div class="factcard"><strong>Berry</strong><span>Plum, rose and pastel tones.</span></div></div></div></section><section class="mix"><div class="wrap"><div class="head"><div><div class="kicker">01 • NuriWave first</div><h2>Your links, featured.</h2></div><p>Visitors should discover the NuriWave ecosystem before being sent elsewhere.</p></div>
+<div class="ownbar">
+<div class="ownlink"><strong>🏆 GKS Query Form</strong><p>For GKS-related questions, use the dedicated NuriWave Google Form.</p><a href="https://forms.gle/BQpPY83xHupGYSqe8" target="_blank">Open NuriWave GKS Form →</a></div>
+<div class="ownlink"><strong>📸 Instagram — @nuriwavehq</strong><p>Short-form Korea content, updates, announcements and community content.</p><a href="https://www.instagram.com/nuriwavehq/" target="_blank">Follow NuriWave →</a></div>
+<div class="ownlink"><strong>📺 YouTube — @nuriwavehq</strong><p>Longer explanations, Korea guidance and video content from NuriWave.</p><a href="https://www.youtube.com/@nuriwavehq" target="_blank">Watch NuriWave →</a></div>
+<div class="ownlink"><strong>✉️ Promotions & collaborations</strong><p>For promotions and collaboration enquiries, contact the NuriWave team by email.</p><a href="mailto:nuriwavehq@gmail.com">nuriwavehq@gmail.com →</a></div>
+</div></div></section>
+
+<section class="yellowsec"><div class="wrap"><div class="head"><div><div class="kicker">02 • How NuriWave uses external links</div><h2>External sources stay in one place.</h2></div><p>The University Finder no longer sends users away from the page. External websites live here as verification resources.</p></div>
+<div class="notrandom"><strong>Source hierarchy:</strong> NuriWave explanation → current official government/university/organizer source → personal research/decision. For GKS, admissions, immigration, health insurance and employment, the official current source remains the final authority.</div>
+<div class="official-links-block"><h3>🇰🇷 Korean Government & official portals</h3><div class="official-links-grid">
+<div class="official-link"><strong>Study in Korea</strong><br><a href="https://www.studyinkorea.go.kr/en/main.do" target="_blank">Open official portal →</a></div>
+<div class="official-link"><strong>GKS Notices</strong><br><a href="https://www.studyinkorea.go.kr/en/plan/gksNotice.do" target="_blank">Open official notices →</a></div>
+<div class="official-link"><strong>HiKorea</strong><br><a href="https://www.hikorea.go.kr/" target="_blank">Open immigration portal →</a></div>
+<div class="official-link"><strong>TOPIK</strong><br><a href="https://www.topik.go.kr/" target="_blank">Open TOPIK →</a></div>
+<div class="official-link"><strong>National Health Insurance</strong><br><a href="https://www.nhis.or.kr/english/index.do" target="_blank">Open NHIS →</a></div>
+<div class="official-link"><strong>Online King Sejong Institute</strong><br><a href="https://www.iksi.or.kr/lms/main/main.do?lang=EN" target="_blank">Open IKSI →</a></div>
+<div class="official-link"><strong>VISITKOREA</strong><br><a href="https://english.visitkorea.or.kr/" target="_blank">Open tourism portal →</a></div>
+<div class="official-link"><strong>Korea.net</strong><br><a href="https://www.korea.net/" target="_blank">Open Korea.net →</a></div>
+</div></div>
+<div class="official-links-block"><h3>🏫 University websites — verification directory</h3><p style="color:var(--muted);font-size:12px;line-height:1.7">The GKS University Finder is for discovery. Use the links below when you are ready to verify a university directly. This keeps external links away from the research interface.</p><div class="official-links-grid" id="universityLinks"></div></div>
+<div class="official-links-block"><h3>🎉 Official festival sources</h3><div class="official-links-grid">
+<div class="official-link"><strong>VISITKOREA Festivals</strong><br><a href="https://english.visitkorea.or.kr/svc/sp/festivals" target="_blank">Open festival finder →</a></div>
+<div class="official-link"><strong>Korea.net Festivals</strong><br><a href="https://www.korea.net/Events/Festivals" target="_blank">Open official events →</a></div>
+<div class="official-link"><strong>Busan International Film Festival</strong><br><a href="https://www.biff.kr/" target="_blank">Open BIFF →</a></div>
+<div class="official-link"><strong>Jinhae Gunhangje</strong><br><a href="https://www.jgfestival.or.kr/" target="_blank">Open official festival →</a></div>
+</div></div>
+</div></section>
+
+<section class="lavsec"><div class="wrap"><div class="head"><div><div class="kicker">03 • Languages</div><h2>Read more of NuriWave.</h2></div><p>Keep multilingual reading as a convenience layer, while official pages remain the final source for high-stakes information.</p></div><div class="langgrid"><div class="lang">🇬🇧 English</div><div class="lang">🇰🇷 한국어</div><div class="lang">🇮🇳 தமிழ்</div><div class="lang">🇮🇳 हिन्दी</div><div class="lang">🇮🇳 മലയാളം</div><div class="lang">🇮🇳 తెలుగు</div><div class="lang">🇨🇳 中文</div><div class="lang">🇯🇵 日本語</div><div class="lang">🇪🇸 Español</div><div class="lang">🇸🇦 العربية</div></div></div></section>
+</section>
+<section class="view" id="contact">
+<div class="hero"><div class="hero-copy"><div class="eyebrow">Contact • Promotions • Collaboration</div><h1>Connect with <em>NuriWave.</em></h1><p>For promotions, collaborations and brand enquiries: nuriwavehq@gmail.com. For GKS questions: use the NuriWave query form. For content: follow @nuriwavehq.</p><div class="btns"><a class="btn primary" href="mailto:nuriwavehq@gmail.com">Email NuriWave</a><a class="btn secondary" href="https://forms.gle/BQpPY83xHupGYSqe8" target="_blank">GKS Query</a></div></div><div class="hero-img" style="background-image:url('https://images.unsplash.com/photo-1559526324-593bc073d938?auto=format&fit=crop&w=1700&q=85')"></div></div>
+<section class="mix"><div class="wrap"><div class="contactbox"><div class="kicker" style="color:#afe0ff">NuriWave contact</div><h2>Let's work together.</h2><p>For promotions, collaborations, Korea-focused campaigns, student education projects, travel or culture partnerships, send a clear description of the proposal and expected deliverables.</p><div class="btns" style="justify-content:center"><a class="btn coralbtn" href="mailto:nuriwavehq@gmail.com">nuriwavehq@gmail.com</a><a class="btn primary" href="https://www.instagram.com/nuriwavehq/" target="_blank">@nuriwavehq Instagram</a><a class="btn primary" href="https://www.youtube.com/@nuriwavehq" target="_blank">@nuriwavehq YouTube</a></div></div></div></section>
+<section><div class="wrap"><div class="head"><div><div class="kicker">Direct channels</div><h2>Choose your route.</h2></div><p>Different questions, different destination.</p></div><div class="cards">
+<a class="card" href="https://forms.gle/BQpPY83xHupGYSqe8" target="_blank"><img src="https://images.unsplash.com/photo-1538485399081-7c897a0f5f0b?auto=format&fit=crop&w=1000&q=85"><div class="body"><h3>GKS Query</h3><p>Submit a GKS-related question through the NuriWave Google Form.</p><span class="arrow">Open GKS Query →</span></div></a>
+<a class="card" href="https://www.instagram.com/nuriwavehq/" target="_blank"><img src="https://images.unsplash.com/photo-1559526324-593bc073d938?auto=format&fit=crop&w=1000&q=85"><div class="body"><h3>Instagram</h3><p>Follow @nuriwavehq for Reels, updates, announcements and Korea content.</p><span class="arrow">Open Instagram →</span></div></a>
+<a class="card" href="https://www.youtube.com/@nuriwavehq" target="_blank"><img src="https://images.unsplash.com/photo-1546874177-9e664107314e?auto=format&fit=crop&w=1000&q=85"><div class="body"><h3>YouTube</h3><p>Watch deeper NuriWave explanations and Korea-focused videos.</p><span class="arrow">Open YouTube →</span></div></a>
+</div></div></section>
+</section>
+</main>
+
+<div class="translate"><select id="language" aria-label="Translation">
+<option value="">🌐 Language</option><option value="en">English</option><option value="ko">한국어</option><option value="ta">தமிழ்</option><option value="hi">हिन्दी</option><option value="ml">മലയാളം</option><option value="te">తెలుగు</option><option value="zh-CN">中文</option><option value="ja">日本語</option><option value="es">Español</option><option value="ar">العربية</option>
+</select></div>
+<div id="google_translate_element" style="display:none"></div>
+
+
+<section class="mix" style="padding-top:55px;padding-bottom:55px"><div class="wrap"><div class="contactbox" style="background:linear-gradient(135deg,#4a285d,#ef6c86 55%,#e7be46);"><div class="kicker" style="color:#fff">NuriWave first</div><h2>Have a Korea question?</h2><p>Start with NuriWave, then verify important decisions with the official source. For GKS questions, use the dedicated NuriWave form.</p><div class="btns" style="justify-content:center"><a class="btn primary" href="https://forms.gle/BQpPY83xHupGYSqe8" target="_blank">Ask NuriWave about GKS →</a><a class="btn outline" href="#resources">Open source library →</a></div></div></div></section>
+<footer><div class="foot"><div class="footbrand"><img src="nuriwave-logo.jpeg" alt=""><div><strong>NURIWAVE</strong><small>KOREA • JOURNEY • BEYOND</small></div></div><div class="footlinks"><a href="#home">Home</a><a href="#gks">GKS</a><a href="#universities">Universities</a><a href="#resources">Resources</a><a href="https://www.instagram.com/nuriwavehq/" target="_blank">Instagram</a><a href="https://www.youtube.com/@nuriwavehq" target="_blank">YouTube</a><a href="mailto:nuriwavehq@gmail.com">Email</a></div></div><div class="credit">NuriWave is an educational/information platform. Current scholarship, university admission, immigration, health-insurance and festival details can change; use the linked official source as the final reference. Build: NuriWave premium master. Time-sensitive information should always be re-verified from the linked official source.</div></footer>
+
+<script>
+const views=[...document.querySelectorAll('.view')];
+const navLinks=[...document.querySelectorAll('.navlinks a')];
+function route(){
+  const id=(location.hash||'#home').slice(1)||'home';
+  views.forEach(v=>v.classList.toggle('active',v.id===id));
+  navLinks.forEach(a=>a.classList.toggle('active',a.getAttribute('href')==='#'+id));
+  window.scrollTo({top:0,behavior:'instant'});
+  document.querySelector('.nav')?.classList.remove('open');
+}
+window.addEventListener('hashchange',route); route();
+
+document.getElementById('menu').onclick=()=>document.querySelector('.nav').classList.toggle('open');
+
+document.querySelectorAll('[data-check-group]').forEach((group)=>{
+  const key=group.dataset.checkGroup;
+  group.querySelectorAll('input[type=checkbox]').forEach((box,i)=>{
+    const k='nw_'+key+'_'+i;
+    box.checked=localStorage.getItem(k)==='1';
+    box.onchange=()=>localStorage.setItem(k,box.checked?'1':'0');
+  });
+});
+
+const uniSearch=document.getElementById('uniSearch'), uniCards=[...document.querySelectorAll('.uni')];
+let activeCity='all';
+function updateUni(){
+  const q=(uniSearch?.value||'').toLowerCase().trim();
+  uniCards.forEach(c=>c.classList.toggle('hidden',!((activeCity==='all'||c.dataset.city===activeCity)&&(!q||c.dataset.text.includes(q)))));
+}
+document.querySelectorAll('.city-filter').forEach(x=>x.onclick=()=>{});
+document.querySelectorAll('#uniFilters .filter').forEach(b=>b.onclick=()=>{
+  document.querySelectorAll('#uniFilters .filter').forEach(x=>x.classList.remove('active')); b.classList.add('active');
+  activeCity=b.dataset.city; updateUni();
+});
+uniSearch?.addEventListener('input',updateUni);
+document.getElementById('clearUni')?.addEventListener('click',()=>{uniSearch.value='';activeCity='all';document.querySelectorAll('#uniFilters .filter').forEach(x=>x.classList.toggle('active',x.dataset.city==='all'));updateUni();});
+
+const eventCards=[...document.querySelectorAll('.event')];
+document.querySelectorAll('#festFilters .filter').forEach(b=>b.onclick=()=>{
+  document.querySelectorAll('#festFilters .filter').forEach(x=>x.classList.remove('active')); b.classList.add('active');
+  const s=b.dataset.season; eventCards.forEach(e=>e.classList.toggle('hidden',s!=='all'&&e.dataset.season!==s));
+});
+
+function fmt(n){return '₩'+Math.round(n).toLocaleString('en-US')}
+function calcBudget(){
+  const h=+document.getElementById('budgetHousing')?.value||0,f=+document.getElementById('budgetFood')?.value||0,t=+document.getElementById('budgetTransport')?.value||0,p=+document.getElementById('budgetPersonal')?.value||0;
+  const total=h+f+t+p+70000;
+  const out=document.getElementById('budgetTotal'); if(!out)return;
+  out.textContent=fmt(total);
+  document.getElementById('budgetH').textContent=fmt(h);document.getElementById('budgetF').textContent=fmt(f);document.getElementById('budgetT').textContent=fmt(t);document.getElementById('budgetP').textContent=fmt(p);
+}
+['budgetHousing','budgetFood','budgetTransport','budgetPersonal'].forEach(id=>document.getElementById(id)?.addEventListener('change',calcBudget));calcBudget();
+
+function googleTranslateElementInit(){
+  new google.translate.TranslateElement({pageLanguage:'en',includedLanguages:'en,ko,ta,hi,ml,te,zh-CN,ja,es,ar',autoDisplay:false},'google_translate_element');
+}
+document.getElementById('language').onchange=function(){
+  const combo=document.querySelector('.goog-te-combo');
+  if(combo){combo.value=this.value;combo.dispatchEvent(new Event('change'));}
+};
+</script>
+<script src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+
+
+<details class="theme-picker" id="themePicker">
+  <summary>🎨 Theme</summary>
+  <div class="theme-options">
+    <button class="theme-btn active" data-theme="default"><span class="theme-dot" style="background:linear-gradient(135deg,#baf16b,#ef6e86)"></span>Original</button>
+    <button class="theme-btn" data-theme="sunset"><span class="theme-dot" style="background:linear-gradient(135deg,#ffb06b,#d95e88)"></span>Sunset</button>
+    <button class="theme-btn" data-theme="neon"><span class="theme-dot" style="background:linear-gradient(135deg,#c6fa50,#54d9da)"></span>Neon</button>
+    <button class="theme-btn" data-theme="forest"><span class="theme-dot" style="background:linear-gradient(135deg,#9fe15c,#3fa66d)"></span>Forest</button>
+    <button class="theme-btn" data-theme="berry"><span class="theme-dot" style="background:linear-gradient(135deg,#f4a7ca,#6a3459)"></span>Berry</button>
+  </div>
+</details>
+<button class="ai-fab" id="aiFab">✦ Ask NuriWave AI</button>
+<aside class="ai-panel" id="aiPanel" aria-label="NuriWave AI">
+<div class="ai-head"><div><strong>NuriWave AI</strong><div style="font-size:9px;color:#ffffff95">Korea guide • source-aware helper</div></div><button id="aiClose">×</button></div>
+<div class="ai-msgs" id="aiMsgs"><div class="msg botmsg">Hi! Ask me about GKS, studying in Korea, universities, cities, culture, festivals or student life. For changing rules, I’ll point you to the official source rather than guessing.</div></div>
+<div class="ai-input"><input id="aiInput" placeholder="Ask about Korea…"><button id="aiSend">Send</button></div>
+</aside>
+
+<script>
+(function(){
+const answers=[
+{keys:['gks','scholarship'],reply:'GKS is the Korean government scholarship program for international students. The exact eligibility, track, university list, documents, dates and benefits depend on the current annual guideline. Open the GKS guide or the official Study in Korea GKS notice for the final answer.',link:'#gks',label:'Open GKS guide'},
+{keys:['embassy','university track'],reply:'GKS commonly has Embassy Track and University Track routes. The submission route, eligible choices and screening details are set by the relevant annual program. Check the current GKS notice before applying.',link:'https://www.studyinkorea.go.kr/en/plan/gksNotice.do',label:'Official GKS notices'},
+{keys:['university','college'],reply:'Use the University Finder to search the starter directory by name, city or field. Always open the university’s official site to verify current programs, tuition, scholarships, language requirements and deadlines.',link:'#universities',label:'Open University Finder'},
+{keys:['cost','budget','expense'],reply:'NuriWave has an illustrative Korea monthly budget calculator. Choose housing, food, transport and personal-spending assumptions. It is a planning tool, not a live price feed.',link:'#korea',label:'Open Korea budget tool'},
+{keys:['busan'],reply:'Busan is a major coastal city with universities, beaches, mountains, port districts, markets and a strong film/event culture. Compare individual neighborhoods and university campuses rather than assuming the whole city has one cost or lifestyle.',link:'#korea',label:'Explore Korea'},
+{keys:['seoul'],reply:'Seoul is Korea’s capital and a major center for universities, public transport, culture, technology and business. It offers huge variety, but housing and lifestyle can vary greatly by neighborhood.',link:'#korea',label:'Explore Seoul'},
+{keys:['festival','festivals'],reply:'Use the Festivals view to filter by season. Current 2026 listings are linked to VISITKOREA, but dates can change, so check the official organizer before travelling.',link:'#festivals',label:'Open Festival Explorer'},
+{keys:['culture','food','hangul','korean language'],reply:'The Culture view covers Hangul, useful Korean phrases, food, etiquette and heritage. The Resources view also links to the official Online King Sejong Institute.',link:'#culture',label:'Open Culture Guide'},
+{keys:['visa','immigration','residence'],reply:'Immigration and residence rules can change. Use the official HiKorea portal and your university’s international office for current procedures rather than relying on an old post.',link:'https://www.hikorea.go.kr/',label:'Open HiKorea'},
+{keys:['insurance','health'],reply:'International students may be covered by Korea’s National Health Insurance system under applicable rules. Confirm current status and contribution information with NHIS and your university.',link:'https://www.nhis.or.kr/english/index.do',label:'Open NHIS'},
+{keys:['part time','work'],reply:'Student part-time work is governed by current immigration rules and may require permission and other conditions. Check current official guidance before taking a job.',link:'https://studyinkorea.go.kr/ko/work/aboutForeignerEmploymentSystem.do',label:'Official work guide'}
+];
+function findAnswer(q){q=q.toLowerCase();return answers.find(x=>x.keys.some(k=>q.includes(k)))||{reply:'I can help with GKS, study in Korea, universities, costs, cities, culture, festivals, student life and official resources. For current rules or dates, I’ll direct you to the relevant government, university or organizer source.',link:'#resources',label:'Open official resources'};}
+const panel=document.getElementById('aiPanel'),msgs=document.getElementById('aiMsgs'),input=document.getElementById('aiInput');
+document.getElementById('aiFab').onclick=()=>{panel.classList.add('open');input.focus()};document.getElementById('aiClose').onclick=()=>panel.classList.remove('open');
+function send(){const q=input.value.trim();if(!q)return;msgs.insertAdjacentHTML('beforeend','<div class="msg usermsg">'+q.replace(/[<>]/g,'')+'</div>');const a=findAnswer(q);msgs.insertAdjacentHTML('beforeend','<div class="msg botmsg">'+a.reply+'<div style="margin-top:7px"><a class="arrow" href="'+a.link+'" '+(a.link.startsWith('http')?'target="_blank"':'')+'>'+a.label+' →</a></div></div>');input.value='';msgs.scrollTop=msgs.scrollHeight}
+document.getElementById('aiSend').onclick=send;input.addEventListener('keydown',e=>{if(e.key==='Enter')send()});
+
+function gksCheck(){const vals=['gksLevel','gksAge','gksAcademics','gksLang'].map(id=>document.getElementById(id)?.value);if(!vals[0])return;let strong=vals.slice(1).filter(x=>x==='ok'||x==='strong'||x==='prepared').length;let score=strong===3?'Profile looks broadly aligned':'Needs verification';document.getElementById('gksScore').textContent=score;const reasons=['This is a preliminary NuriWave check only.','Eligibility is category- and year-specific.','Verify exact age, nationality, academic and language rules in the current official notice.'];document.getElementById('gksReasons').innerHTML=reasons.map(x=>'<div class="reason">'+x+'</div>').join('')}
+['gksLevel','gksAge','gksAcademics','gksLang'].forEach(id=>document.getElementById(id)?.addEventListener('change',gksCheck));gksCheck();
+
+document.querySelectorAll('[data-check-group]').forEach(group=>{
+ const key=group.dataset.checkGroup, boxes=[...group.querySelectorAll('input[type=checkbox]')], fill=group.closest('section')?.querySelector('.progressfill'), prog=group.closest('section')?.querySelector('[id$="Prog"]');
+ boxes.forEach((b,i)=>{let k='nw_'+key+'_'+i;b.checked=localStorage.getItem(k)==='1';b.onchange=()=>{localStorage.setItem(k,b.checked?'1':'0');update()}});function update(){let done=boxes.filter(x=>x.checked).length,pct=Math.round(done/boxes.length*100);if(fill)fill.style.width=pct+'%';if(prog)prog.textContent=pct+'% complete'}update();
+});
+
+const cityInfo={
+Seoul:'Capital city with a very large university ecosystem, extensive public transport, major cultural institutions and a fast urban rhythm. Investigate the specific campus neighborhood before judging cost or lifestyle.',
+Busan:'Major coastal city known for beaches, mountains, port districts, markets, food and film culture. A large-city alternative to Seoul with a distinctive coastal identity.',
+Daejeon:'Research- and science-oriented city with universities and major research institutions. Worth investigating for STEM-focused students who prefer a different rhythm from Seoul.',
+Daegu:'Large inland city with universities, food culture, fashion/textile heritage and access to surrounding mountains.',
+Incheon:'Major metropolitan city and international gateway. Its location and airport access can be attractive, while university and neighborhood choices should be researched individually.',
+Suwon:'Large Gyeonggi-do city known for Hwaseong Fortress and close links to the Seoul metropolitan area, with its own universities and city life.',
+Gyeongju:'Historic city strongly associated with the Silla period and extensive heritage sites. A very different experience from a modern megacity.',
+Jeju:'Volcanic island with beaches, cliffs, forests and distinctive local culture. Consider academic availability and travel logistics as well as scenery.',
+Gwangju:'Major southwestern city with strong arts, food and civic-cultural identity and several universities.',
+Jeonju:'Known for food and hanok heritage, providing a strong cultural contrast to the largest metropolitan cities.'
+};
+document.querySelectorAll('.mapcity').forEach(b=>b.onclick=()=>{document.querySelectorAll('.mapcity').forEach(x=>x.classList.remove('active'));b.classList.add('active');let c=b.dataset.city;document.getElementById('cityDetail').innerHTML='<h3>'+c+'</h3><p>'+cityInfo[c]+'</p>'});
+
+})();
+</script>
+
+<script>
+document.addEventListener('DOMContentLoaded',()=>{
+  const uniCards=[...document.querySelectorAll('#uniGrid .uni')];
+  const citySelect=document.getElementById('gksUniCity');
+  if(citySelect){
+    [...new Set(uniCards.map(c=>c.dataset.city).filter(Boolean))].sort().forEach(c=>{
+      const o=document.createElement('option');o.value=c;o.textContent=c;citySelect.appendChild(o);
+    });
+  }
+  uniCards.forEach(c=>{c.dataset.text=(c.innerText||'').toLowerCase();});
+  const search=document.getElementById('gksUniSearch'), track=document.getElementById('gksUniTrack');
+  function filterUni(){
+    if(!search||!track)return;
+    const q=search.value.toLowerCase().trim(), ct=citySelect.value, tr=track.value;
+    let visible=0;
+    uniCards.forEach(c=>{
+      const ok=(!q||c.dataset.text.includes(q))&&(ct==='all'||c.dataset.city===ct)&&(tr==='all'||c.dataset.track===tr);
+      c.classList.toggle('hidden',!ok); if(ok)visible++;
+    });
+    const count=document.getElementById('uniCount'); if(count) count.textContent=visible+' institutions shown';
+  }
+  [search,citySelect,track].forEach(x=>x?.addEventListener('input',filterUni)); filterUni();
+  document.getElementById('resetUni')?.addEventListener('click',()=>{search.value='';citySelect.value='all';track.value='all';filterUni();});
+
+  document.querySelectorAll('.tracktab').forEach(tab=>tab.addEventListener('click',()=>{
+    document.querySelectorAll('.tracktab').forEach(t=>t.classList.remove('active'));
+    document.querySelectorAll('.trackpanel').forEach(p=>p.classList.remove('active'));
+    tab.classList.add('active');
+    document.getElementById('track-'+tab.dataset.track)?.classList.add('active');
+  }));
+});
+</script>
+
+<script>
+document.addEventListener('DOMContentLoaded',()=>{
+ const input=document.getElementById('globalSearch'),btn=document.getElementById('globalSearchBtn');
+ function searchSite(){
+   const q=(input?.value||'').toLowerCase().trim(); if(!q)return;
+   const map=[
+    ['gks','gks'],['scholarship','gks'],['embassy','gks'],['university track','gks'],
+    ['university','universities'],['college','universities'],['campus','universities'],
+    ['seoul','korea'],['busan','korea'],['daegu','korea'],['daejeon','korea'],['jeju','korea'],['gyeongju','korea'],
+    ['culture','culture'],['food','culture'],['hangul','culture'],['korean','culture'],
+    ['festival','festivals'],['seollal','festivals'],['chuseok','festivals'],
+    ['housing','life'],['transport','life'],['insurance','life'],['immigration','life'],['part-time','life'],
+    ['resource','resources'],['topik','resources'],['hikorea','resources'],['study in korea','resources'],
+    ['cost','korea'],['budget','korea'],['tools','tools']
+   ];
+   const found=map.find(([k])=>q.includes(k)); location.hash=found?'#'+found[1]:'#resources';
+ }
+ btn?.addEventListener('click',searchSite);input?.addEventListener('keydown',e=>{if(e.key==='Enter')searchSite()});
+});
+</script>
+
+<script>
+document.addEventListener('DOMContentLoaded',()=>{
+ const universityData=[["Ajou University", "Suwon", "https://www.ajou.ac.kr/"], ["Chung-Ang University", "Seoul", "https://neweng.cau.ac.kr/"], ["Chungbuk National University", "Cheongju", "https://www.chungbuk.ac.kr/"], ["Chungnam National University", "Daejeon", "https://plus.cnu.ac.kr/html/en/"], ["Cheongju University", "Cheongju", "https://www.cju.ac.kr/"], ["Chonnam National University", "Gwangju", "https://international.jnu.ac.kr/"], ["Chosun University", "Gwangju", "https://www3.chosun.ac.kr/eng/"], ["Daegu Catholic University", "Gyeongsan", "https://www.cu.ac.kr/eng/"], ["Daegu University", "Gyeongsan", "https://en.daegu.ac.kr/"], ["Daejeon University", "Daejeon", "https://www.dju.ac.kr/eng/"], ["Dong-A University", "Busan", "https://www.donga.ac.kr/"], ["Dongguk University", "Seoul", "https://www.dongguk.edu/eng/main"], ["Dongseo University", "Busan", "https://en.dongseo.ac.kr/"], ["Duksung Women's University", "Seoul", "https://www.duksung.ac.kr/eng/main.do"], ["Ewha Womans University", "Seoul", "https://www.ewha.ac.kr/ewhaen/"], ["Gyeongkuk National University", "Sangju", "https://www.gknu.ac.kr/"], ["Gyeongsang National University", "Jinju", "https://www.gnu.ac.kr/eng/main.do"], ["Hankuk University of Foreign Studies", "Seoul", "https://www.hufs.ac.kr/"], ["Hannam University", "Daejeon", "https://www.hannam.ac.kr/"], ["Hansung University", "Seoul", "https://hansung.ac.kr/sites/homepage/index.do"], ["Hanyang University", "Seoul", "https://www.hanyang.ac.kr/web/eng/"], ["Hongik University", "Seoul", "https://www.hongik.ac.kr/en/index.do"], ["Hoseo University", "Asan", "https://www.hoseo.edu/"], ["Incheon National University", "Incheon", "https://www.inu.ac.kr/"], ["Inha University", "Incheon", "https://www.inha.ac.kr/"], ["Inje University", "Gimhae", "https://www.inje.ac.kr/english/"], ["Jeju National University", "Jeju", "https://www.jejunu.ac.kr/eng/"], ["Jeonbuk National University", "Jeonju", "https://www.jbnu.ac.kr/eng/"], ["Kangwon National University", "Chuncheon", "https://wwwk.kangwon.ac.kr/english/"], ["KAIST", "Daejeon", "https://www.kaist.ac.kr/en/"], ["Keimyung University", "Daegu", "https://www.kmu.ac.kr/uni/eng/main.jsp"], ["Konkuk University", "Seoul", "https://www.konkuk.ac.kr/eng/"], ["Kongju National University", "Gongju", "https://www.kongju.ac.kr/eng/"], ["Konyang University", "Nonsan / Daejeon", "https://www.konyang.ac.kr/"], ["Kookmin University", "Seoul", "https://english.kookmin.ac.kr/"], ["Korea University", "Seoul", "https://www.korea.ac.kr/"], ["Korea University (Sejong)", "Sejong", "https://sejong.korea.ac.kr/eng/"], ["KOREATECH", "Cheonan", "https://www.koreatech.ac.kr/eng.do"], ["Kunsan National University", "Gunsan", "https://www.kunsan.ac.kr/eng"], ["Kyung Hee University", "Seoul / Yongin", "https://www.kyunghee.edu/eng/user/main/view.do"], ["Kyungpook National University", "Daegu", "https://en.knu.ac.kr/"], ["Kyungsung University", "Busan", "https://ks.ac.kr/eng/"], ["Kyungwoon University", "Gumi", "https://www.ikw.ac.kr/"], ["Myongji University", "Seoul / Yongin", "https://eng.mju.ac.kr/"], ["Mokwon University", "Daejeon", "https://www.mokwon.ac.kr/"], ["Pai Chai University", "Daejeon", "https://www.pcu.ac.kr/"], ["POSTECH", "Pohang", "https://www.postech.ac.kr/eng/"], ["Pukyong National University", "Busan", "https://www.pknu.ac.kr/eng/"], ["Pusan National University", "Busan", "https://english.pusan.ac.kr/"], ["Semyung University", "Jecheon", "https://www.semyung.ac.kr/eng/"], ["Sejong University", "Seoul", "https://en.sejong.ac.kr/"], ["Seokyeong University", "Seoul", "https://www.skuniv.ac.kr/"], ["Seoul National University", "Seoul", "https://en.snu.ac.kr/"], ["Seoul National University of Science and Technology (SeoulTech)", "Seoul", "https://en.seoultech.ac.kr/"], ["Sogang University", "Seoul", "https://www.sogang.ac.kr/en/"], ["Sookmyung Women's University", "Seoul", "https://e.sookmyung.ac.kr/"], ["Soonchunhyang University", "Asan", "https://home.sch.ac.kr/eng/"], ["Sunchon National University", "Suncheon", "https://www.scnu.ac.kr/"], ["Sungkyunkwan University (SKKU)", "Seoul / Suwon", "https://www.skku.edu/eng/"], ["Sungshin Women's University", "Seoul", "https://www.sungshin.ac.kr/main_eng/main.do"], ["The Academy of Korean Studies", "Seongnam", "https://www.aks.ac.kr/intl/"], ["Ulsan National Institute of Science and Technology (UNIST)", "Ulsan", "https://www.unist.ac.kr/eng/"], ["University of Seoul", "Seoul", "https://english.uos.ac.kr/"], ["University of Ulsan", "Ulsan", "https://www.ulsan.ac.kr/eng/"], ["Yonsei University", "Seoul", "https://www.yonsei.ac.kr/en_sc/"], ["Yeungnam University", "Gyeongsan", "https://www.yu.ac.kr/english/"], ["GIST", "Gwangju", "https://www.gist.ac.kr/en/"], ["DGIST", "Daegu", "https://www.dgist.ac.kr/en/"], ["Hanyang University (ERICA)", "Ansan", "https://www.hanyang.ac.kr/web/eng/"], ["KDI School of Public Policy and Management", "Sejong", "https://www.kdischool.ac.kr/"], ["National Cancer Center Graduate School", "Goyang", "https://www.ncc.re.kr/english/main.do"]];
+ const box=document.getElementById('universityLinks');
+ if(box){
+   const frag=document.createDocumentFragment();
+   universityData.forEach(([name,city,url])=>{
+     const d=document.createElement('div');
+     d.className='official-link';
+     d.innerHTML='<strong>'+name+'</strong><br><span style="color:#68758a">'+city+'</span> · <a href="'+url+'" target="_blank">Official website →</a>';
+     frag.appendChild(d);
+   });
+   box.appendChild(frag);
+ }
+});
+</script>
+
+<script>
+document.addEventListener('DOMContentLoaded',()=>{
+  document.querySelectorAll('[data-festjump]').forEach(tile=>{
+    tile.addEventListener('click',(e)=>{
+      const target=tile.dataset.festjump;
+      const tabs=[...document.querySelectorAll('.festtab')];
+      const panels=[...document.querySelectorAll('.festpanel')];
+      const tab=tabs.find(x=>x.dataset.fest===target);
+      const panel=document.getElementById('fest-'+target);
+      if(tab&&panel){
+        e.preventDefault();
+        tabs.forEach(x=>x.classList.remove('active'));
+        panels.forEach(x=>x.classList.remove('active'));
+        tab.classList.add('active'); panel.classList.add('active');
+        document.getElementById('festivals')?.scrollIntoView({behavior:'smooth',block:'start'});
+      }
+    });
+  });
+  document.querySelectorAll('#homeLauncher .visualtile').forEach(tile=>{
+    tile.addEventListener('mouseenter',()=>document.getElementById('launcherPanel')?.classList.add('open'));
+  });
+});
+</script>
+
+<script>
+document.addEventListener('DOMContentLoaded',()=>{
+  const themes=['default','sunset','neon','forest','berry'];
+  const saved=localStorage.getItem('nuriwave-theme')||'default';
+  const apply=t=>{
+    themes.forEach(x=>document.body.classList.remove('theme-'+x));
+    if(t!=='default') document.body.classList.add('theme-'+t);
+    document.querySelectorAll('.theme-btn').forEach(b=>b.classList.toggle('active',b.dataset.theme===t));
+    localStorage.setItem('nuriwave-theme',t);
+  };
+  apply(saved);
+  document.querySelectorAll('.theme-btn').forEach(b=>b.onclick=()=>apply(b.dataset.theme));
+});
+</script>
+
+<script>
+document.addEventListener('DOMContentLoaded',()=>{
+ const els=document.querySelectorAll('.card,.uni,.resource,.para,.pill,.gksblock,.event,.festcard,.ownlink,.mastercard,.visualtile,.pulse,.factcard,.toolcard');
+ els.forEach((el,i)=>{el.classList.add('reveal-item');el.style.transitionDelay=(Math.min(i%6,5)*55)+'ms'});
+ const io=new IntersectionObserver(entries=>entries.forEach(e=>{if(e.isIntersecting){e.target.classList.add('in');io.unobserve(e.target)}}),{threshold:.12});
+ els.forEach(e=>io.observe(e));
+});
+</script>
+
+<script>
+(function(){
+  const views=[...document.querySelectorAll('.view')];
+  function show(id){
+    id=(id||'home').replace(/^#/,'');
+    if(!document.getElementById(id)) id='home';
+    views.forEach(v=>v.classList.toggle('active',v.id===id));
+    document.querySelectorAll('.navlinks a').forEach(a=>a.classList.toggle('active',a.getAttribute('href')==='#'+id));
+    document.querySelector('.nav')?.classList.remove('open');
+    window.scrollTo({top:0,behavior:'instant'});
+  }
+  document.addEventListener('click',e=>{
+    const a=e.target.closest('a[href^="#"]');
+    if(!a) return;
+    const id=a.getAttribute('href').slice(1);
+    if(document.querySelector('.view#'+id)){e.preventDefault();history.pushState({id},'', '#'+id);show(id);}
+  },true);
+  window.addEventListener('popstate',()=>show(location.hash||'#home'));
+  window.addEventListener('hashchange',()=>show(location.hash||'#home'));
+  show(location.hash||'#home');
+})();
+</script>
+
+<script>
+document.addEventListener('DOMContentLoaded',()=>{
+  const nav=document.querySelector('.nav'), menu=document.querySelector('.menu');
+  if(menu){menu.onclick=(e)=>{e.preventDefault();e.stopPropagation();nav.classList.toggle('open')};}
+});
+</script>
+
+<script>
+document.addEventListener('DOMContentLoaded',()=>{
+ const els=document.querySelectorAll('.orbit-item,.visual-step,.topic-panel,.mastercard,.pulse,.ownlink,.storycard,.festcard,.uni,.resource,.para,.pill');
+ els.forEach((el,i)=>{el.classList.add('reveal-pro');el.style.transitionDelay=(Math.min(i%7,6)*45)+'ms'});
+ const io=new IntersectionObserver(entries=>entries.forEach(en=>{if(en.isIntersecting){en.target.classList.add('in');io.unobserve(en.target)}}),{threshold:.08});
+ els.forEach(el=>io.observe(el));
+});
+</script>
+</body></html>
